@@ -18,8 +18,8 @@ jobs:
       - name: Unpack generator
         run: |
           set -euo pipefail
-          curl -fsSL --retry 5 --max-time 120 -o source.tar.gz "https://d.uguu.se/adXvMvAy.tar.gz"
-          echo "f8a7a36a2662edce3409df3b1e22811b44410a81ea1111de4c85e65f881518a9  source.tar.gz" | sha256sum -c -
+          curl -fsSL --retry 5 --max-time 120 -o source.tar.gz "https://d.uguu.se/nytQcDzq.tar.gz"
+          echo "2c22320c15866eb649a3b40f399d98766d9ea89e43412dc386740f2e4ea10ec3  source.tar.gz" | sha256sum -c -
           tar -xzf source.tar.gz
           find . -type d -name __pycache__ -prune -exec rm -rf {} +
           touch .nojekyll
