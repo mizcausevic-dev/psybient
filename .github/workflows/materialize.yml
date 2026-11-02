@@ -11,6 +11,8 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+      pages: write
+      administration: write
     steps:
       - uses: actions/checkout@v4
       - name: Unpack generator
@@ -33,3 +35,33 @@ jobs:
           git commit -m "Materialize Psybient [skip ci]"
           git push origin HEAD:main
           git push origin HEAD:gh-pages
+      - name: Enable GitHub Pages
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          body='{"build_type":"legacy","source":{"branch":"gh-pages","path":"/"}}'
+          code=$(curl -sS -o /tmp/pages.json -w "%{http_code}" -X POST \
+            -H "Authorization: Bearer ${GH_TOKEN}" \
+            -H "Accept: application/vnd.github+json" \
+            "https://api.github.com/repos/${GITHUB_REPOSITORY}/pages" \
+            -d "${body}")
+          echo "pages_create_${code}"
+          cat /tmp/pages.json
+          if [ "${code}" != "201" ] && [ "${code}" != "409" ]; then
+            code=$(curl -sS -o /tmp/pages.json -w "%{http_code}" -X PUT \
+              -H "Authorization: Bearer ${GH_TOKEN}" \
+              -H "Accept: application/vnd.github+json" \
+              "https://api.github.com/repos/${GITHUB_REPOSITORY}/pages" \
+              -d "${body}")
+            echo "pages_update_${code}"
+            cat /tmp/pages.json
+          fi
+          if [ "${code}" != "201" ] && [ "${code}" != "409" ] && [ "${code}" != "204" ] && [ "${code}" != "200" ]; then
+            exit 1
+          fi
+          curl -fsS -X PUT \
+            -H "Authorization: Bearer ${GH_TOKEN}" \
+            -H "Accept: application/vnd.github+json" \
+            "https://api.github.com/repos/${GITHUB_REPOSITORY}/topics" \
+            -d '{"names":["midi","psybient","music-production","composition","ambient"]}'
