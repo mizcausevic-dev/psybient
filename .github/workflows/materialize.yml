@@ -7,7 +7,7 @@ on:
 
 jobs:
   build:
-    if: ${{ !contains(github.event.head_commit.message, '[skip ci]') && !contains(github.event.head_commit.message, 'duration-text-once') }}
+    if: ${{ !contains(github.event.head_commit.message, '[skip ci]') }}
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -36,85 +36,4 @@ jobs:
             git commit -m "Materialize Psybient [skip ci]"
             git push origin HEAD:main
           fi
-          git push origin HEAD:gh-pages
-
-  duration-text:
-    if: ${{ contains(github.event.head_commit.message, 'duration-text-once') }}
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-    steps:
-      - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-      - name: State the encoded MP3 as 23.415 seconds
-        run: |
-          set -euo pipefail
-          git fetch origin gh-pages
-          git show origin/gh-pages:index.html > index.html
-          python3 - << 'PY'
-          import base64
-          from pathlib import Path
-          index = Path("index.html")
-          text = index.read_text()
-          old = "The encoded MP3 is 23.41 seconds."
-          new = "The encoded MP3 is 23.415 seconds."
-          if text.count(old) != 1:
-              raise SystemExit("index duration sentence missing")
-          text = text.replace(old, new, 1)
-          if "PLACEHOLDER" in text or "23.458" in text:
-              raise SystemExit("bad index")
-          if "The film is 23.41 seconds" not in text:
-              raise SystemExit("film sentence missing")
-          if "No human listening audition was performed for this build." not in text:
-              raise SystemExit("audition sentence missing")
-          if "preview, not a master" not in text or "preview, not master" not in text:
-              raise SystemExit("preview disclosure missing")
-          index.write_text(text)
-          media = Path("media.html")
-          mt = media.read_text()
-          a = "the MP3 is 23.41 seconds."
-          b = "the MP3 is 23.415 seconds."
-          c = "\u00b7 23.41 seconds \u00b7"
-          d = "\u00b7 23.415 seconds \u00b7"
-          if mt.count(a) != 1 or mt.count(c) != 1:
-              raise SystemExit("media duration count")
-          mt = mt.replace(a, b, 1).replace(c, d, 1)
-          if "the film is 23.41 seconds" not in mt:
-              raise SystemExit("film media sentence missing")
-          if "23.458" in mt or "PLACEHOLDER" in mt:
-              raise SystemExit("bad media")
-          if "No human listening audition was performed for this build." not in mt:
-              raise SystemExit("media audition missing")
-          media.write_text(mt)
-          page = Path("tools/page.py")
-          pg = page.read_text()
-          olds = "seconds = f\"{preview['seconds_encoded']:.2f}\""
-          news = "seconds = f\"{preview['seconds_encoded']:.3f}\""
-          if pg.count(olds) != 1:
-              raise SystemExit("page format missing")
-          pg = pg.replace(olds, news, 1)
-          if "film_seconds = f\"{film['duration_seconds']:.2f}\"" not in pg:
-              raise SystemExit("film format changed")
-          page.write_text(pg)
-          screen = Path("tools/screening.py")
-          sc = screen.read_text()
-          olds = "preview_seconds = f\"{config['preview_seconds']:.2f}\""
-          news = "preview_seconds = f\"{config['preview_seconds']:.3f}\""
-          if sc.count(olds) != 1:
-              raise SystemExit("screening format missing")
-          sc = sc.replace(olds, news, 1)
-          if "film_seconds = f\"{config['film_seconds']:.2f}\"" not in sc:
-              raise SystemExit("screening film format changed")
-          screen.write_text(sc)
-          original = base64.b64decode("bmFtZTogbWF0ZXJpYWxpemUKCm9uOgogIHB1c2g6CiAgICBicmFuY2hlczogW21haW5dCiAgd29ya2Zsb3dfZGlzcGF0Y2g6Cgpqb2JzOgogIGJ1aWxkOgogICAgaWY6ICR7eyAhY29udGFpbnMoZ2l0aHViLmV2ZW50LmhlYWRfY29tbWl0Lm1lc3NhZ2UsICdbc2tpcCBjaV0nKSB9fQogICAgcnVucy1vbjogdWJ1bnR1LWxhdGVzdAogICAgcGVybWlzc2lvbnM6CiAgICAgIGNvbnRlbnRzOiB3cml0ZQogICAgc3RlcHM6CiAgICAgIC0gdXNlczogYWN0aW9ucy9jaGVja291dEB2NAogICAgICAgIHdpdGg6CiAgICAgICAgICBmZXRjaC1kZXB0aDogMAogICAgICAtIG5hbWU6IFVucGFjayBnZW5lcmF0b3IKICAgICAgICBydW46IHwKICAgICAgICAgIHNldCAtZXVvIHBpcGVmYWlsCiAgICAgICAgICBjdXJsIC1mc1NMIC0tcmV0cnkgNSAtLW1heC10aW1lIDEyMCAtbyBzb3VyY2UudGFyLmd6ICJodHRwczovL2QudWd1dS5zZS9ueXRRY0R6cS50YXIuZ3oiCiAgICAgICAgICBlY2hvICIyYzIyMzIwYzE1ODY2ZWI2NDlhM2I0MGYzOTlkOTg3NjZkOWVhODllNDM0MTJkYzM4Njc0MGYyZTRlYTEwZWMzICBzb3VyY2UudGFyLmd6IiB8IHNoYTI1NnN1bSAtYyAtCiAgICAgICAgICB0YXIgLXh6ZiBzb3VyY2UudGFyLmd6CiAgICAgICAgICBmaW5kIC4gLXR5cGUgZCAtbmFtZSBfX3B5Y2FjaGVfXyAtcHJ1bmUgLWV4ZWMgcm0gLXJmIHt9ICsKICAgICAgICAgIHRvdWNoIC5ub2pla3lsbAogICAgICAtIG5hbWU6IEluc3RhbGwgbWVkaWEgdG9vbHMKICAgICAgICBydW46IHN1ZG8gYXB0LWdldCB1cGRhdGUgJiYgc3VkbyBhcHQtZ2V0IGluc3RhbGwgLXkgZmZtcGVnIGZvbnRzLWRlamF2dS1jb3JlCiAgICAgIC0gbmFtZTogQnVpbGQgcGFjawogICAgICAgIHJ1bjogcHl0aG9uMyB0b29scy9idWlsZF9wYWNrLnB5CiAgICAgIC0gbmFtZTogUHVibGlzaCB0aGUgcGFjawogICAgICAgIHJ1bjogfAogICAgICAgICAgZ2l0IGNvbmZpZyB1c2VyLm5hbWUgIm1pemNhdXNldmljLWRldiIKICAgICAgICAgIGdpdCBjb25maWcgdXNlci5lbWFpbCAibWl6Y2F1c2V2aWMtZGV2QHVzZXJzLm5vcmVwbHkuZ2l0aHViLmNvbSIKICAgICAgICAgIGdpdCBhZGQgLUEKICAgICAgICAgIGlmICEgZ2l0IGRpZmYgLS1jYWNoZWQgLS1xdWlldDsgdGhlbgogICAgICAgICAgICBnaXQgY29tbWl0IC1tICJNYXRlcmlhbGl6ZSBQc3liaWVudCBbc2tpcCBjaV0iCiAgICAgICAgICAgIGdpdCBwdXNoIG9yaWdpbiBIRUFEOm1haW4KICAgICAgICAgIGZpCiAgICAgICAgICBnaXQgcHVzaCBvcmlnaW4gSEVBRDpnaC1wYWdlcwo=")
-          Path(".github/workflows/materialize.yml").write_bytes(original)
-          PY
-
-          git config user.name "mizcausevic-dev"
-          git config user.email "mizcausevic-dev@users.noreply.github.com"
-          git add index.html media.html tools/page.py tools/screening.py .github/workflows/materialize.yml
-          git diff --cached --name-only
-          git commit -m "State the catalog preview as 23.415 seconds [skip ci]"
-          git push origin HEAD:main
           git push origin HEAD:gh-pages
