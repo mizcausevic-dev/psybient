@@ -1,0 +1,44 @@
+"""Factual article draft. Not published."""
+
+from __future__ import annotations
+
+from tools.midi_io import bpm_to_us
+from tools.statements import AUDITION, ON_PICTURE, PREVIEW_LINE, PROGRAM, PUBLICATION, WARNING
+
+TITLE = "Psybient is a note-only MIDI construction kit"
+SUBTITLE = "Four kits, 32-bar arrangements, and an 8-bar simple-synth preview that is not a master"
+TAGS = ["midi", "psybient", "music-production", "composition", "ambient"]
+TAG_LINE = "Tags: " + ", ".join(TAGS)
+SCORE_SECONDS = (8 * 4) * bpm_to_us(82) / 1_000_000
+
+PARAGRAPHS = [
+    "DRAFT. " + PUBLICATION,
+    TAG_LINE,
+    "The pack is four construction kits in 4/4. Tempos are 82, 96, 76, and 104 BPM. Those integers sit in the project range 75 to 110. They are a creative direction, not a claim that the files are authentic psybient productions. Every core part is 8 bars. Every kit has one 32-bar arrangement. Lengths were chosen before the notes were written.",
+    "Each kit has two variations of six core roles: drums, percussion, bass, motif, harmonic field, and atmosphere. That is 48 core files. There are no reference-only files. Variation B changes the phrase. It is not a velocity edit and not a uniform transpose of variation A. Low Water is a half-time D dorian pocket with a rising motif and long high notes. Glass Orbit pushes the and of 2 and staggers a new chord each bar. Dust Choir leaves most of the bar silent, groups conga attacks as 3+3+2 sixteenths, and still keeps 4/4. Night Ferry is faster, with 8th-note hats, syncopated bass, and chords that enter on beat 2.",
+    "Drums and percussion share channel 10 and use an explicit note map: kick 36, snare 38, closed hat 42, open hat 46, crash 49, tambourine 54, congas 63 and 64, maracas 70, claves 75, woodblock 76. Closed and open hats do not overlap. Bass is monophonic, MIDI 28 to 55. Motif is monophonic, MIDI 60 to 84. The harmonic field allows four notes, MIDI 48 to 76. Atmosphere allows three notes, MIDI 52 to 88. C4 is 60. The resolution is 960 ticks per quarter note. Offsets are 0. Dust Choir motif B uses one E4 outside F mixolydian, and Night Ferry bass B uses one C2 outside the E minor collection. Both are flagged.",
+    PROGRAM,
+    "The atmosphere is ordinary notes. The preview synth plays them with a quiet sine and a slow attack. That envelope is not in the MIDI. Drums and percussion are short sines or noise bursts chosen by the MIDI pitch. Bass is a sine. The motif is a triangle. The harmonic field is a quiet sine. Nothing in the file is a sample or a program change.",
+    "The primary preview is bars 9 through 16 of the Low Water arrangement, variation A, all six roles. The score length at the encoded tempo is "
+    + f"{SCORE_SECONDS:.3f}"
+    + " seconds. The 32-bar arrangement remains in the MIDI and is not the MP3. "
+    + PREVIEW_LINE
+    + ". The film takes its audio from that preview and shows the words "
+    + ON_PICTURE
+    + " on the picture and in the WebVTT captions.",
+    AUDITION
+    + " The validator reopened the MIDI bytes and compared them with the canonical score. That is a structural check. The sample peak written beside the preview is the peak of the integer mix. It is not a loudness measurement. Nothing in this build is claimed as a master.",
+    "The stills are procedural illustrations of lanes on a deep teal field. Long bars stand for pads. Short ticks stand for drums. A sand bar stands for the motif. They are not photographs of a session or of performers.",
+    "When you use the files, use either the combined arrangement or the separate parts. " + WARNING,
+    "Call to action: keep the MIDI, the matched report, and the preview together. Do not publish this draft to Medium, Instagram, or X from the draft files alone.",
+]
+
+
+def markdown() -> str:
+    body = "\n\n".join(PARAGRAPHS)
+    return f"# {TITLE}\n\n{SUBTITLE}\n\n{body}\n"
+
+
+def plain_text() -> str:
+    lines = [TITLE, "", SUBTITLE, "", *PARAGRAPHS, ""]
+    return "\n".join(lines) + "\n"

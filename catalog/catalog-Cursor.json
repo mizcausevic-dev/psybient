@@ -1,0 +1,1333 @@
+{
+  "arrangement": {
+    "container_bars": 32,
+    "description": "Low Water variation A arranged over 32 bars. Each musical track is one or more copies of the 8-bar part, placed at the listed bar offsets.",
+    "id": "k01-arrangement-a",
+    "kit_id": "k01",
+    "path": "midi/arrangement.mid"
+  },
+  "arrangements": [
+    {
+      "bpm": 82,
+      "container_bars": 32,
+      "description": "Low Water variation A arranged over 32 bars. Each musical track is one or more copies of the 8-bar part, placed at the listed bar offsets.",
+      "id": "k01-arrangement-a",
+      "kit_id": "k01",
+      "path": "midi/arrangement.mid",
+      "placements": {
+        "k01.atmosphere.a": [
+          0,
+          8,
+          24
+        ],
+        "k01.bass.a": [
+          8,
+          16,
+          24
+        ],
+        "k01.drums.a": [
+          8,
+          16,
+          24
+        ],
+        "k01.harmonic-field.a": [
+          8,
+          16
+        ],
+        "k01.motif.a": [
+          8,
+          24
+        ],
+        "k01.percussion.a": [
+          8,
+          24
+        ]
+      }
+    },
+    {
+      "bpm": 96,
+      "container_bars": 32,
+      "description": "Glass Orbit variation A arranged over 32 bars. Each musical track is one or more copies of the 8-bar part, placed at the listed bar offsets.",
+      "id": "k02-arrangement-a",
+      "kit_id": "k02",
+      "path": "midi/k02-glass-orbit/arrangement.mid",
+      "placements": {
+        "k02.atmosphere.a": [
+          0,
+          16
+        ],
+        "k02.bass.a": [
+          8,
+          16,
+          24
+        ],
+        "k02.drums.a": [
+          8,
+          16,
+          24
+        ],
+        "k02.harmonic-field.a": [
+          0,
+          8,
+          24
+        ],
+        "k02.motif.a": [
+          16,
+          24
+        ],
+        "k02.percussion.a": [
+          16,
+          24
+        ]
+      }
+    },
+    {
+      "bpm": 76,
+      "container_bars": 32,
+      "description": "Dust Choir variation A arranged over 32 bars. Each musical track is one or more copies of the 8-bar part, placed at the listed bar offsets.",
+      "id": "k03-arrangement-a",
+      "kit_id": "k03",
+      "path": "midi/k03-dust-choir/arrangement.mid",
+      "placements": {
+        "k03.atmosphere.a": [
+          0,
+          8
+        ],
+        "k03.bass.a": [
+          16,
+          24
+        ],
+        "k03.drums.a": [
+          24
+        ],
+        "k03.harmonic-field.a": [
+          8,
+          16,
+          24
+        ],
+        "k03.motif.a": [
+          16,
+          24
+        ],
+        "k03.percussion.a": [
+          24
+        ]
+      }
+    },
+    {
+      "bpm": 104,
+      "container_bars": 32,
+      "description": "Night Ferry variation A arranged over 32 bars. Each musical track is one or more copies of the 8-bar part, placed at the listed bar offsets.",
+      "id": "k04-arrangement-a",
+      "kit_id": "k04",
+      "path": "midi/k04-night-ferry/arrangement.mid",
+      "placements": {
+        "k04.atmosphere.a": [
+          16,
+          24
+        ],
+        "k04.bass.a": [
+          8,
+          16,
+          24
+        ],
+        "k04.drums.a": [
+          0,
+          8,
+          16
+        ],
+        "k04.harmonic-field.a": [
+          8,
+          16
+        ],
+        "k04.motif.a": [
+          16,
+          24
+        ],
+        "k04.percussion.a": [
+          0,
+          16
+        ]
+      }
+    }
+  ],
+  "c4": 60,
+  "catalog_version": "psybient-1.0.0",
+  "container_plan": "Core parts are 8 bars. Arrangements are 32 bars. Lengths were fixed before the notes.",
+  "core_part_count": 48,
+  "creative_direction": "Patient downtempo development, evolving pitch fields, layered detail, and spacious interplay. The BPM range is a project choice, not a claim that these files are authentic genre productions.",
+  "drum_channel": 10,
+  "drum_map": {
+    "36": "Bass Drum 1",
+    "38": "Acoustic Snare",
+    "42": "Closed Hi-Hat",
+    "46": "Open Hi-Hat",
+    "49": "Crash Cymbal 1"
+  },
+  "generator_version": "psybient-1.0.0",
+  "kits": [
+    {
+      "arrangement_bars": 32,
+      "arrangement_phrases": [
+        {
+          "bars": 8,
+          "name": "Air",
+          "start_bar": 0
+        },
+        {
+          "bars": 8,
+          "name": "All six",
+          "start_bar": 8
+        },
+        {
+          "bars": 8,
+          "name": "Pulse",
+          "start_bar": 16
+        },
+        {
+          "bars": 8,
+          "name": "Return",
+          "start_bar": 24
+        }
+      ],
+      "bar_ticks": 3840,
+      "bars": 8,
+      "bpm": 82,
+      "change_bars": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "changes": [
+        "Dm11",
+        "G9",
+        "Cmaj7",
+        "Dm"
+      ],
+      "collection_name": "D dorian",
+      "departures": [],
+      "effective_bpm": 82.00003553334874,
+      "harmonic_rhythm": "Dm11 for two bars, G9 for two, Cmaj7 for two, then a delayed Dm for two.",
+      "id": "k01",
+      "identity": "Half-time pocket: kick on beat 1, snare on beat 3, hats only on the and of 2 and the last 16th. The bass leaps D to A, then settles. The motif rises D F A B and leaves bar 3 empty. Harmony holds Dm11, then G9, then a C major color, then a thinner Dm. Atmosphere is a few long high notes with silence in the last bar.",
+      "limitations": "Variation A and variation B are alternatives. Do not stack them. Do not mix parts from different kits: the tempos and collections differ. The 32-bar arrangement uses variation A only. Closed and open hats never overlap, and no hat-choke controller is written.",
+      "meter": "4/4",
+      "part_bars": 8,
+      "phrases": [
+        {
+          "bars": 2,
+          "name": "Open",
+          "start_bar": 0
+        },
+        {
+          "bars": 2,
+          "name": "Answer",
+          "start_bar": 2
+        },
+        {
+          "bars": 2,
+          "name": "Hold",
+          "start_bar": 4
+        },
+        {
+          "bars": 2,
+          "name": "Cadence",
+          "start_bar": 6
+        }
+      ],
+      "pitch_classes": [
+        0,
+        2,
+        4,
+        5,
+        7,
+        9,
+        11
+      ],
+      "placements": {
+        "atmosphere": [
+          0,
+          8,
+          24
+        ],
+        "bass": [
+          8,
+          16,
+          24
+        ],
+        "drums": [
+          8,
+          16,
+          24
+        ],
+        "harmonic-field": [
+          8,
+          16
+        ],
+        "motif": [
+          8,
+          24
+        ],
+        "percussion": [
+          8,
+          24
+        ]
+      },
+      "seed": 8201,
+      "slug": "k01-low-water",
+      "spell": [
+        "C",
+        "C#",
+        "D",
+        "Eb",
+        "E",
+        "F",
+        "F#",
+        "G",
+        "G#",
+        "A",
+        "Bb",
+        "B"
+      ],
+      "stochastic_draws": 0,
+      "tempo_us": 731707,
+      "title": "Low Water",
+      "tonal_reference": "D",
+      "tonic": "D"
+    },
+    {
+      "arrangement_bars": 32,
+      "arrangement_phrases": [
+        {
+          "bars": 8,
+          "name": "Pads",
+          "start_bar": 0
+        },
+        {
+          "bars": 8,
+          "name": "Bass entry",
+          "start_bar": 8
+        },
+        {
+          "bars": 8,
+          "name": "Motif",
+          "start_bar": 16
+        },
+        {
+          "bars": 8,
+          "name": "Full",
+          "start_bar": 24
+        }
+      ],
+      "bar_ticks": 3840,
+      "bars": 8,
+      "bpm": 96,
+      "change_bars": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "changes": [
+        "Am",
+        "F",
+        "Cmaj7",
+        "Em7",
+        "Am",
+        "F",
+        "Dm",
+        "Am"
+      ],
+      "collection_name": "A aeolian",
+      "departures": [],
+      "effective_bpm": 96.0,
+      "harmonic_rhythm": "One chord per bar: Am, F, Cmaj7, Em7, Am, F, Dm, Am. Each tone enters a beat later than the last.",
+      "id": "k02",
+      "identity": "The kick pushes the and of 2 as well as beat 1. Claves sit on beats 2 and 4. Bass is a three-note pedal that changes root each bar and cadences on B. The motif descends in five short notes for four bars, then answers with fewer longer notes. Harmony staggers root, fifth, third, and seventh, one chord a bar. Atmosphere enters late in every other bar.",
+      "limitations": "Variation A and variation B are alternatives. Do not stack them. Do not mix parts from different kits: the tempos and collections differ. The 32-bar arrangement uses variation A only. Closed and open hats never overlap, and no hat-choke controller is written.",
+      "meter": "4/4",
+      "part_bars": 8,
+      "phrases": [
+        {
+          "bars": 4,
+          "name": "Descent",
+          "start_bar": 0
+        },
+        {
+          "bars": 4,
+          "name": "Answer",
+          "start_bar": 4
+        }
+      ],
+      "pitch_classes": [
+        0,
+        2,
+        4,
+        5,
+        7,
+        9,
+        11
+      ],
+      "placements": {
+        "atmosphere": [
+          0,
+          16
+        ],
+        "bass": [
+          8,
+          16,
+          24
+        ],
+        "drums": [
+          8,
+          16,
+          24
+        ],
+        "harmonic-field": [
+          0,
+          8,
+          24
+        ],
+        "motif": [
+          16,
+          24
+        ],
+        "percussion": [
+          16,
+          24
+        ]
+      },
+      "seed": 9602,
+      "slug": "k02-glass-orbit",
+      "spell": [
+        "C",
+        "C#",
+        "D",
+        "Eb",
+        "E",
+        "F",
+        "F#",
+        "G",
+        "G#",
+        "A",
+        "Bb",
+        "B"
+      ],
+      "stochastic_draws": 0,
+      "tempo_us": 625000,
+      "title": "Glass Orbit",
+      "tonal_reference": "A",
+      "tonic": "A"
+    },
+    {
+      "arrangement_bars": 32,
+      "arrangement_phrases": [
+        {
+          "bars": 8,
+          "name": "Air only",
+          "start_bar": 0
+        },
+        {
+          "bars": 8,
+          "name": "Harmony",
+          "start_bar": 8
+        },
+        {
+          "bars": 8,
+          "name": "Melody",
+          "start_bar": 16
+        },
+        {
+          "bars": 8,
+          "name": "Drums",
+          "start_bar": 24
+        }
+      ],
+      "bar_ticks": 3840,
+      "bars": 8,
+      "bpm": 76,
+      "change_bars": [
+        4,
+        4
+      ],
+      "changes": [
+        "Fadd9",
+        "Bb"
+      ],
+      "collection_name": "F mixolydian",
+      "departures": [
+        "Motif B bar 6 uses E4 (64) for one short note, then steps back to F4."
+      ],
+      "effective_bpm": 75.99996960001216,
+      "harmonic_rhythm": "Fadd9 for four bars, then Bb for four bars.",
+      "id": "k03",
+      "identity": "Most of the bar is silent. Kick only on odd bars, hat on the even bars, snare on beat 4 of bars 4 and 8. Congas group attacks as 3+3+2 sixteenths twice in the bar. That grouping does not change the 4/4 meter. Bass is one long note per bar. The motif is eight calls spread over eight bars. Harmony is two held chords, F then Bb. Atmosphere is one note every four bars.",
+      "limitations": "Variation A and variation B are alternatives. Do not stack them. Do not mix parts from different kits: the tempos and collections differ. The 32-bar arrangement uses variation A only. Closed and open hats never overlap, and no hat-choke controller is written. Variation B of the motif uses E4 once, flagged as a departure, then returns to F.",
+      "meter": "4/4",
+      "part_bars": 8,
+      "phrases": [
+        {
+          "bars": 4,
+          "name": "Call",
+          "start_bar": 0
+        },
+        {
+          "bars": 4,
+          "name": "Second call",
+          "start_bar": 4
+        }
+      ],
+      "pitch_classes": [
+        0,
+        2,
+        3,
+        5,
+        7,
+        9,
+        10
+      ],
+      "placements": {
+        "atmosphere": [
+          0,
+          8
+        ],
+        "bass": [
+          16,
+          24
+        ],
+        "drums": [
+          24
+        ],
+        "harmonic-field": [
+          8,
+          16,
+          24
+        ],
+        "motif": [
+          16,
+          24
+        ],
+        "percussion": [
+          24
+        ]
+      },
+      "seed": 7603,
+      "slug": "k03-dust-choir",
+      "spell": [
+        "C",
+        "Db",
+        "D",
+        "Eb",
+        "E",
+        "F",
+        "Gb",
+        "G",
+        "Ab",
+        "A",
+        "Bb",
+        "B"
+      ],
+      "stochastic_draws": 0,
+      "tempo_us": 789474,
+      "title": "Dust Choir",
+      "tonal_reference": "F",
+      "tonic": "F"
+    },
+    {
+      "arrangement_bars": 32,
+      "arrangement_phrases": [
+        {
+          "bars": 8,
+          "name": "Hats",
+          "start_bar": 0
+        },
+        {
+          "bars": 8,
+          "name": "Bass and harmony",
+          "start_bar": 8
+        },
+        {
+          "bars": 8,
+          "name": "All six",
+          "start_bar": 16
+        },
+        {
+          "bars": 8,
+          "name": "Motif and air",
+          "start_bar": 24
+        }
+      ],
+      "bar_ticks": 3840,
+      "bars": 8,
+      "bpm": 104,
+      "change_bars": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "changes": [
+        "Em9",
+        "G6",
+        "Dsus",
+        "Em"
+      ],
+      "collection_name": "E minor pentatonic plus 9",
+      "departures": [
+        "Bass B bar 7 uses C2 (36) for a short passing note, then moves to D2."
+      ],
+      "effective_bpm": 104.00001386666851,
+      "harmonic_rhythm": "Em9, G, Dsus, Em. Each chord starts on beat 2 and lasts two bars.",
+      "id": "k04",
+      "identity": "Faster tempo, still half-time in the kick: beats 1 and 3, with an 8th-note hat and an open hat on beat 4. Woodblocks answer just after each beat. Bass is four short syncopations, including the 9th F#. The motif is a downbeat arrival plus a pickup into the next bar. Harmony lands on beat 2 every two bars: Em9, G, D, Em. Atmosphere pulses a fifth once per bar.",
+      "limitations": "Variation A and variation B are alternatives. Do not stack them. Do not mix parts from different kits: the tempos and collections differ. The 32-bar arrangement uses variation A only. Closed and open hats never overlap, and no hat-choke controller is written. Variation B of the bass uses C2 once, flagged as a departure, between E and D.",
+      "meter": "4/4",
+      "part_bars": 8,
+      "phrases": [
+        {
+          "bars": 4,
+          "name": "Arrival",
+          "start_bar": 0
+        },
+        {
+          "bars": 4,
+          "name": "Pickup",
+          "start_bar": 4
+        }
+      ],
+      "pitch_classes": [
+        2,
+        4,
+        6,
+        7,
+        9,
+        11
+      ],
+      "placements": {
+        "atmosphere": [
+          16,
+          24
+        ],
+        "bass": [
+          8,
+          16,
+          24
+        ],
+        "drums": [
+          0,
+          8,
+          16
+        ],
+        "harmonic-field": [
+          8,
+          16
+        ],
+        "motif": [
+          16,
+          24
+        ],
+        "percussion": [
+          0,
+          16
+        ]
+      },
+      "seed": 10404,
+      "slug": "k04-night-ferry",
+      "spell": [
+        "C",
+        "C#",
+        "D",
+        "D#",
+        "E",
+        "F",
+        "F#",
+        "G",
+        "G#",
+        "A",
+        "A#",
+        "B"
+      ],
+      "stochastic_draws": 0,
+      "tempo_us": 576923,
+      "title": "Night Ferry",
+      "tonal_reference": "E",
+      "tonic": "E"
+    }
+  ],
+  "meter": {
+    "bar_ticks": 3840,
+    "denominator": 4,
+    "numerator": 4
+  },
+  "microtiming": "offset is 0; performed_start = nominal_start",
+  "note_policy": "Note-only MIDI. No program changes, controllers, pitch bend, or samples are encoded.",
+  "pack_id": "psybient",
+  "pack_name": "Psybient",
+  "parts": [
+    {
+      "bpm": 82,
+      "channel": 9,
+      "container_bars": 8,
+      "core": true,
+      "id": "k01.drums.a",
+      "kit_id": "k01",
+      "monophonic": false,
+      "notes": 33,
+      "path": "midi/k01-low-water/drums-a.mid",
+      "role": "drums",
+      "variation": "a"
+    },
+    {
+      "bpm": 82,
+      "channel": 9,
+      "container_bars": 8,
+      "core": true,
+      "id": "k01.percussion.a",
+      "kit_id": "k01",
+      "monophonic": false,
+      "notes": 34,
+      "path": "midi/k01-low-water/percussion-a.mid",
+      "role": "percussion",
+      "variation": "a"
+    },
+    {
+      "bpm": 82,
+      "channel": 0,
+      "container_bars": 8,
+      "core": true,
+      "id": "k01.bass.a",
+      "kit_id": "k01",
+      "monophonic": true,
+      "notes": 17,
+      "path": "midi/k01-low-water/bass-a.mid",
+      "role": "bass",
+      "variation": "a"
+    },
+    {
+      "bpm": 82,
+      "channel": 1,
+      "container_bars": 8,
+      "core": true,
+      "id": "k01.motif.a",
+      "kit_id": "k01",
+      "monophonic": true,
+      "notes": 14,
+      "path": "midi/k01-low-water/motif-a.mid",
+      "role": "motif",
+      "variation": "a"
+    },
+    {
+      "bpm": 82,
+      "channel": 2,
+      "container_bars": 8,
+      "core": true,
+      "id": "k01.harmonic-field.a",
+      "kit_id": "k01",
+      "monophonic": false,
+      "notes": 15,
+      "path": "midi/k01-low-water/harmonic-a.mid",
+      "role": "harmonic-field",
+      "variation": "a"
+    },
+    {
+      "bpm": 82,
+      "channel": 3,
+      "container_bars": 8,
+      "core": true,
+      "id": "k01.atmosphere.a",
+      "kit_id": "k01",
+      "monophonic": false,
+      "notes": 6,
+      "path": "midi/k01-low-water/atmosphere-a.mid",
+      "role": "atmosphere",
+      "variation": "a"
+    },
+    {
+      "bpm": 82,
+      "channel": 9,
+      "container_bars": 8,
+      "core": true,
+      "id": "k01.drums.b",
+      "kit_id": "k01",
+      "monophonic": false,
+      "notes": 41,
+      "path": "midi/k01-low-water/drums-b.mid",
+      "role": "drums",
+      "variation": "b"
+    },
+    {
+      "bpm": 82,
+      "channel": 9,
+      "container_bars": 8,
+      "core": true,
+      "id": "k01.percussion.b",
+      "kit_id": "k01",
+      "monophonic": false,
+      "notes": 33,
+      "path": "midi/k01-low-water/percussion-b.mid",
+      "role": "percussion",
+      "variation": "b"
+    },
+    {
+      "bpm": 82,
+      "channel": 0,
+      "container_bars": 8,
+      "core": true,
+      "id": "k01.bass.b",
+      "kit_id": "k01",
+      "monophonic": true,
+      "notes": 19,
+      "path": "midi/k01-low-water/bass-b.mid",
+      "role": "bass",
+      "variation": "b"
+    },
+    {
+      "bpm": 82,
+      "channel": 1,
+      "container_bars": 8,
+      "core": true,
+      "id": "k01.motif.b",
+      "kit_id": "k01",
+      "monophonic": true,
+      "notes": 16,
+      "path": "midi/k01-low-water/motif-b.mid",
+      "role": "motif",
+      "variation": "b"
+    },
+    {
+      "bpm": 82,
+      "channel": 2,
+      "container_bars": 8,
+      "core": true,
+      "id": "k01.harmonic-field.b",
+      "kit_id": "k01",
+      "monophonic": false,
+      "notes": 26,
+      "path": "midi/k01-low-water/harmonic-b.mid",
+      "role": "harmonic-field",
+      "variation": "b"
+    },
+    {
+      "bpm": 82,
+      "channel": 3,
+      "container_bars": 8,
+      "core": true,
+      "id": "k01.atmosphere.b",
+      "kit_id": "k01",
+      "monophonic": false,
+      "notes": 15,
+      "path": "midi/k01-low-water/atmosphere-b.mid",
+      "role": "atmosphere",
+      "variation": "b"
+    },
+    {
+      "bpm": 96,
+      "channel": 9,
+      "container_bars": 8,
+      "core": true,
+      "id": "k02.drums.a",
+      "kit_id": "k02",
+      "monophonic": false,
+      "notes": 49,
+      "path": "midi/k02-glass-orbit/drums-a.mid",
+      "role": "drums",
+      "variation": "a"
+    },
+    {
+      "bpm": 96,
+      "channel": 9,
+      "container_bars": 8,
+      "core": true,
+      "id": "k02.percussion.a",
+      "kit_id": "k02",
+      "monophonic": false,
+      "notes": 18,
+      "path": "midi/k02-glass-orbit/percussion-a.mid",
+      "role": "percussion",
+      "variation": "a"
+    },
+    {
+      "bpm": 96,
+      "channel": 0,
+      "container_bars": 8,
+      "core": true,
+      "id": "k02.bass.a",
+      "kit_id": "k02",
+      "monophonic": true,
+      "notes": 24,
+      "path": "midi/k02-glass-orbit/bass-a.mid",
+      "role": "bass",
+      "variation": "a"
+    },
+    {
+      "bpm": 96,
+      "channel": 1,
+      "container_bars": 8,
+      "core": true,
+      "id": "k02.motif.a",
+      "kit_id": "k02",
+      "monophonic": true,
+      "notes": 35,
+      "path": "midi/k02-glass-orbit/motif-a.mid",
+      "role": "motif",
+      "variation": "a"
+    },
+    {
+      "bpm": 96,
+      "channel": 2,
+      "container_bars": 8,
+      "core": true,
+      "id": "k02.harmonic-field.a",
+      "kit_id": "k02",
+      "monophonic": false,
+      "notes": 32,
+      "path": "midi/k02-glass-orbit/harmonic-a.mid",
+      "role": "harmonic-field",
+      "variation": "a"
+    },
+    {
+      "bpm": 96,
+      "channel": 3,
+      "container_bars": 8,
+      "core": true,
+      "id": "k02.atmosphere.a",
+      "kit_id": "k02",
+      "monophonic": false,
+      "notes": 7,
+      "path": "midi/k02-glass-orbit/atmosphere-a.mid",
+      "role": "atmosphere",
+      "variation": "a"
+    },
+    {
+      "bpm": 96,
+      "channel": 9,
+      "container_bars": 8,
+      "core": true,
+      "id": "k02.drums.b",
+      "kit_id": "k02",
+      "monophonic": false,
+      "notes": 49,
+      "path": "midi/k02-glass-orbit/drums-b.mid",
+      "role": "drums",
+      "variation": "b"
+    },
+    {
+      "bpm": 96,
+      "channel": 9,
+      "container_bars": 8,
+      "core": true,
+      "id": "k02.percussion.b",
+      "kit_id": "k02",
+      "monophonic": false,
+      "notes": 33,
+      "path": "midi/k02-glass-orbit/percussion-b.mid",
+      "role": "percussion",
+      "variation": "b"
+    },
+    {
+      "bpm": 96,
+      "channel": 0,
+      "container_bars": 8,
+      "core": true,
+      "id": "k02.bass.b",
+      "kit_id": "k02",
+      "monophonic": true,
+      "notes": 16,
+      "path": "midi/k02-glass-orbit/bass-b.mid",
+      "role": "bass",
+      "variation": "b"
+    },
+    {
+      "bpm": 96,
+      "channel": 1,
+      "container_bars": 8,
+      "core": true,
+      "id": "k02.motif.b",
+      "kit_id": "k02",
+      "monophonic": true,
+      "notes": 24,
+      "path": "midi/k02-glass-orbit/motif-b.mid",
+      "role": "motif",
+      "variation": "b"
+    },
+    {
+      "bpm": 96,
+      "channel": 2,
+      "container_bars": 8,
+      "core": true,
+      "id": "k02.harmonic-field.b",
+      "kit_id": "k02",
+      "monophonic": false,
+      "notes": 16,
+      "path": "midi/k02-glass-orbit/harmonic-b.mid",
+      "role": "harmonic-field",
+      "variation": "b"
+    },
+    {
+      "bpm": 96,
+      "channel": 3,
+      "container_bars": 8,
+      "core": true,
+      "id": "k02.atmosphere.b",
+      "kit_id": "k02",
+      "monophonic": false,
+      "notes": 15,
+      "path": "midi/k02-glass-orbit/atmosphere-b.mid",
+      "role": "atmosphere",
+      "variation": "b"
+    },
+    {
+      "bpm": 76,
+      "channel": 9,
+      "container_bars": 8,
+      "core": true,
+      "id": "k03.drums.a",
+      "kit_id": "k03",
+      "monophonic": false,
+      "notes": 11,
+      "path": "midi/k03-dust-choir/drums-a.mid",
+      "role": "drums",
+      "variation": "a"
+    },
+    {
+      "bpm": 76,
+      "channel": 9,
+      "container_bars": 8,
+      "core": true,
+      "id": "k03.percussion.a",
+      "kit_id": "k03",
+      "monophonic": false,
+      "notes": 48,
+      "path": "midi/k03-dust-choir/percussion-a.mid",
+      "role": "percussion",
+      "variation": "a"
+    },
+    {
+      "bpm": 76,
+      "channel": 0,
+      "container_bars": 8,
+      "core": true,
+      "id": "k03.bass.a",
+      "kit_id": "k03",
+      "monophonic": true,
+      "notes": 8,
+      "path": "midi/k03-dust-choir/bass-a.mid",
+      "role": "bass",
+      "variation": "a"
+    },
+    {
+      "bpm": 76,
+      "channel": 1,
+      "container_bars": 8,
+      "core": true,
+      "id": "k03.motif.a",
+      "kit_id": "k03",
+      "monophonic": true,
+      "notes": 8,
+      "path": "midi/k03-dust-choir/motif-a.mid",
+      "role": "motif",
+      "variation": "a"
+    },
+    {
+      "bpm": 76,
+      "channel": 2,
+      "container_bars": 8,
+      "core": true,
+      "id": "k03.harmonic-field.a",
+      "kit_id": "k03",
+      "monophonic": false,
+      "notes": 8,
+      "path": "midi/k03-dust-choir/harmonic-a.mid",
+      "role": "harmonic-field",
+      "variation": "a"
+    },
+    {
+      "bpm": 76,
+      "channel": 3,
+      "container_bars": 8,
+      "core": true,
+      "id": "k03.atmosphere.a",
+      "kit_id": "k03",
+      "monophonic": false,
+      "notes": 2,
+      "path": "midi/k03-dust-choir/atmosphere-a.mid",
+      "role": "atmosphere",
+      "variation": "a"
+    },
+    {
+      "bpm": 76,
+      "channel": 9,
+      "container_bars": 8,
+      "core": true,
+      "id": "k03.drums.b",
+      "kit_id": "k03",
+      "monophonic": false,
+      "notes": 14,
+      "path": "midi/k03-dust-choir/drums-b.mid",
+      "role": "drums",
+      "variation": "b"
+    },
+    {
+      "bpm": 76,
+      "channel": 9,
+      "container_bars": 8,
+      "core": true,
+      "id": "k03.percussion.b",
+      "kit_id": "k03",
+      "monophonic": false,
+      "notes": 12,
+      "path": "midi/k03-dust-choir/percussion-b.mid",
+      "role": "percussion",
+      "variation": "b"
+    },
+    {
+      "bpm": 76,
+      "channel": 0,
+      "container_bars": 8,
+      "core": true,
+      "id": "k03.bass.b",
+      "kit_id": "k03",
+      "monophonic": true,
+      "notes": 16,
+      "path": "midi/k03-dust-choir/bass-b.mid",
+      "role": "bass",
+      "variation": "b"
+    },
+    {
+      "bpm": 76,
+      "channel": 1,
+      "container_bars": 8,
+      "core": true,
+      "id": "k03.motif.b",
+      "kit_id": "k03",
+      "monophonic": true,
+      "notes": 15,
+      "path": "midi/k03-dust-choir/motif-b.mid",
+      "role": "motif",
+      "variation": "b"
+    },
+    {
+      "bpm": 76,
+      "channel": 2,
+      "container_bars": 8,
+      "core": true,
+      "id": "k03.harmonic-field.b",
+      "kit_id": "k03",
+      "monophonic": false,
+      "notes": 13,
+      "path": "midi/k03-dust-choir/harmonic-b.mid",
+      "role": "harmonic-field",
+      "variation": "b"
+    },
+    {
+      "bpm": 76,
+      "channel": 3,
+      "container_bars": 8,
+      "core": true,
+      "id": "k03.atmosphere.b",
+      "kit_id": "k03",
+      "monophonic": false,
+      "notes": 7,
+      "path": "midi/k03-dust-choir/atmosphere-b.mid",
+      "role": "atmosphere",
+      "variation": "b"
+    },
+    {
+      "bpm": 104,
+      "channel": 9,
+      "container_bars": 8,
+      "core": true,
+      "id": "k04.drums.a",
+      "kit_id": "k04",
+      "monophonic": false,
+      "notes": 89,
+      "path": "midi/k04-night-ferry/drums-a.mid",
+      "role": "drums",
+      "variation": "a"
+    },
+    {
+      "bpm": 104,
+      "channel": 9,
+      "container_bars": 8,
+      "core": true,
+      "id": "k04.percussion.a",
+      "kit_id": "k04",
+      "monophonic": false,
+      "notes": 36,
+      "path": "midi/k04-night-ferry/percussion-a.mid",
+      "role": "percussion",
+      "variation": "a"
+    },
+    {
+      "bpm": 104,
+      "channel": 0,
+      "container_bars": 8,
+      "core": true,
+      "id": "k04.bass.a",
+      "kit_id": "k04",
+      "monophonic": true,
+      "notes": 32,
+      "path": "midi/k04-night-ferry/bass-a.mid",
+      "role": "bass",
+      "variation": "a"
+    },
+    {
+      "bpm": 104,
+      "channel": 1,
+      "container_bars": 8,
+      "core": true,
+      "id": "k04.motif.a",
+      "kit_id": "k04",
+      "monophonic": true,
+      "notes": 16,
+      "path": "midi/k04-night-ferry/motif-a.mid",
+      "role": "motif",
+      "variation": "a"
+    },
+    {
+      "bpm": 104,
+      "channel": 2,
+      "container_bars": 8,
+      "core": true,
+      "id": "k04.harmonic-field.a",
+      "kit_id": "k04",
+      "monophonic": false,
+      "notes": 15,
+      "path": "midi/k04-night-ferry/harmonic-a.mid",
+      "role": "harmonic-field",
+      "variation": "a"
+    },
+    {
+      "bpm": 104,
+      "channel": 3,
+      "container_bars": 8,
+      "core": true,
+      "id": "k04.atmosphere.a",
+      "kit_id": "k04",
+      "monophonic": false,
+      "notes": 16,
+      "path": "midi/k04-night-ferry/atmosphere-a.mid",
+      "role": "atmosphere",
+      "variation": "a"
+    },
+    {
+      "bpm": 104,
+      "channel": 9,
+      "container_bars": 8,
+      "core": true,
+      "id": "k04.drums.b",
+      "kit_id": "k04",
+      "monophonic": false,
+      "notes": 28,
+      "path": "midi/k04-night-ferry/drums-b.mid",
+      "role": "drums",
+      "variation": "b"
+    },
+    {
+      "bpm": 104,
+      "channel": 9,
+      "container_bars": 8,
+      "core": true,
+      "id": "k04.percussion.b",
+      "kit_id": "k04",
+      "monophonic": false,
+      "notes": 40,
+      "path": "midi/k04-night-ferry/percussion-b.mid",
+      "role": "percussion",
+      "variation": "b"
+    },
+    {
+      "bpm": 104,
+      "channel": 0,
+      "container_bars": 8,
+      "core": true,
+      "id": "k04.bass.b",
+      "kit_id": "k04",
+      "monophonic": true,
+      "notes": 16,
+      "path": "midi/k04-night-ferry/bass-b.mid",
+      "role": "bass",
+      "variation": "b"
+    },
+    {
+      "bpm": 104,
+      "channel": 1,
+      "container_bars": 8,
+      "core": true,
+      "id": "k04.motif.b",
+      "kit_id": "k04",
+      "monophonic": true,
+      "notes": 16,
+      "path": "midi/k04-night-ferry/motif-b.mid",
+      "role": "motif",
+      "variation": "b"
+    },
+    {
+      "bpm": 104,
+      "channel": 2,
+      "container_bars": 8,
+      "core": true,
+      "id": "k04.harmonic-field.b",
+      "kit_id": "k04",
+      "monophonic": false,
+      "notes": 24,
+      "path": "midi/k04-night-ferry/harmonic-b.mid",
+      "role": "harmonic-field",
+      "variation": "b"
+    },
+    {
+      "bpm": 104,
+      "channel": 3,
+      "container_bars": 8,
+      "core": true,
+      "id": "k04.atmosphere.b",
+      "kit_id": "k04",
+      "monophonic": false,
+      "notes": 6,
+      "path": "midi/k04-night-ferry/atmosphere-b.mid",
+      "role": "atmosphere",
+      "variation": "b"
+    }
+  ],
+  "percussion_map": {
+    "54": "Tambourine",
+    "63": "Open Hi Conga",
+    "64": "Low Conga",
+    "70": "Maracas",
+    "75": "Claves",
+    "76": "Hi Wood Block"
+  },
+  "ppq": 960,
+  "preview": {
+    "arrangement_path": "midi/arrangement.mid",
+    "bpm": 82,
+    "end_bar_index": 16,
+    "end_tick": 61440,
+    "kit_id": "k01",
+    "musical_bars": "9-16",
+    "start_bar_index": 8,
+    "start_tick": 30720,
+    "statement": "Bars 9-16 of the Low Water arrangement. Eight bars at 82 BPM.",
+    "title": "Low Water",
+    "variation": "a"
+  },
+  "preview_part_ids": [
+    "k01.drums.a",
+    "k01.percussion.a",
+    "k01.bass.a",
+    "k01.motif.a",
+    "k01.harmonic-field.a",
+    "k01.atmosphere.a"
+  ],
+  "range_statement": "Drums and percussion use channel 10 and the maps in this catalog. Bass is monophonic, MIDI 28 to 55. Motif is monophonic, MIDI 60 to 84. Harmonic field is MIDI 48 to 76, at most four notes. Atmosphere is MIDI 52 to 88, at most three notes, written as notes. C4 is 60.",
+  "reference_note": "There is no reference-only part. All six roles are core. The arrangements reuse those files.",
+  "reference_part_count": 0,
+  "seed_meaning": "Seeds identify kits. Nothing is random.",
+  "stack_warning": "Use either the combined arrangement or the separate parts. Do not stack the part files on top of the combined file.",
+  "stochastic_draws": 0
+}

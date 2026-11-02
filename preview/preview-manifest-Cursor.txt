@@ -1,0 +1,89 @@
+preview, not a master
+{
+  "arrangement_path": "midi/arrangement.mid",
+  "arrangement_sha256": "2316f6dd56d3726ea1e0e6bcec45f89eab0cb6908e2bc095d532f88f123feb59",
+  "encode": "libmp3lame CBR 192 kbps, mono source",
+  "excerpt": {
+    "bar_count": 8,
+    "bars": "9-16",
+    "bpm": 82,
+    "correspondence": "Each preview note equals the 8-bar kit note with performed_start increased by 30720, which is bar 9 of the 32-bar arrangement.",
+    "end_tick": 61440,
+    "kit": "k01",
+    "sequencing": "variation A of drums, percussion, bass, motif, harmonic field, and atmosphere",
+    "start_tick": 30720,
+    "title": "Low Water",
+    "transposition": "none"
+  },
+  "intermediate_wav": "build/preview.wav",
+  "intermediate_wav_note": "The WAV is gitignored build storage. The delivered preview is the MP3.",
+  "intermediate_wav_sha256": "1f91a66ed62f2039658b014f5b4bef4fa6a10eb93ee42c0b35757c71ff71a9bd",
+  "label": "preview, not a master",
+  "listening": "No human listening audition was performed for this build.",
+  "mapping": {
+    "atmosphere": "Quieter sine with a slow attack at the written pitch. The attack is this synth envelope. The MIDI note is only pitch, start, duration, and velocity.",
+    "bass": "Sine at the written pitch, short attack, held for the written duration.",
+    "drums": "Bass drum is a short falling sine. Snare, hats, and crash are short noise bursts with different decays. The MIDI pitch selects the burst. No controller is read.",
+    "harmonic-field": "Quiet sine at the written pitch, held for the written duration.",
+    "motif": "Triangle at the written pitch, short attack, held for the written duration.",
+    "percussion": "Clave and woodblock are short sines. Congas are lower sines. Tambourine and maracas are short noise. The MIDI pitch selects the voice."
+  },
+  "mp3_encode_command": [
+    "ffmpeg",
+    "-y",
+    "-i",
+    "/home/runner/work/psybient/psybient/build/preview.wav",
+    "-codec:a",
+    "libmp3lame",
+    "-b:a",
+    "192k",
+    "/home/runner/work/psybient/psybient/preview/preview.mp3"
+  ],
+  "mp3_path": "preview/preview.mp3",
+  "mp3_sha256": "6f5c7fbc379a69d8c2bb1ce16fd5a067099a6d2d61e421c1c6caab94536e5c5e",
+  "pack_id": "psybient",
+  "program_changes": "No program changes are encoded. A conventional GM player will normally use its default piano program for pitched channels unless configured otherwise; compatible GM channel 10 percussion is treated separately. Player behavior may vary.",
+  "renderer": "simple-synth-1.0.0",
+  "renderer_note": "These voices are preview mappings. They are not encoded in the MIDI file.",
+  "rounding": "sample = floor(seconds * sample_rate + 0.5), computed from tick 0 of the excerpt; intervals are not summed",
+  "sample_peak": 20859,
+  "sample_peak_dbfs": -3.923129017088795,
+  "sample_peak_note": "This is a sample peak of the integer mix after scaling. It is not a loudness measurement.",
+  "score_seconds": 23.414624,
+  "score_sha256": "dacb5ad7c312e2b35df251a081acffd3fd37fd20d771ab82184e3b630917c526",
+  "seconds_encoded": 23.414626,
+  "source_parts": [
+    {
+      "id": "k01.drums.a",
+      "path": "midi/k01-low-water/drums-a.mid",
+      "sha256": "16002bb3e9ad94b82d001ff3f83aaf014f97f9dc81d36fa63eb70a3bbbef3b77"
+    },
+    {
+      "id": "k01.percussion.a",
+      "path": "midi/k01-low-water/percussion-a.mid",
+      "sha256": "e829c76f814ff4d2314b6e31fc6a24a55ba76cb1340f29cd5671d79bcd94eb47"
+    },
+    {
+      "id": "k01.bass.a",
+      "path": "midi/k01-low-water/bass-a.mid",
+      "sha256": "5b76b4d416731b647faa62f5585a743b857e4d5c6809604b32ed4cbc1e26395f"
+    },
+    {
+      "id": "k01.motif.a",
+      "path": "midi/k01-low-water/motif-a.mid",
+      "sha256": "4cf779f3a1767680a82673d34b65acd99703aeaedcd9cf908008af3c325770dd"
+    },
+    {
+      "id": "k01.harmonic-field.a",
+      "path": "midi/k01-low-water/harmonic-a.mid",
+      "sha256": "d0a425f710ff2a54bbf7da745a66d61935c663dda0beafc2fd096212a355afb6"
+    },
+    {
+      "id": "k01.atmosphere.a",
+      "path": "midi/k01-low-water/atmosphere-a.mid",
+      "sha256": "6ccac67aa5a24c08b9c886652cd4c82f2783c2456c6b621aea26842e65cd0b30"
+    }
+  ],
+  "tempo_authority": "encoded MIDI tempo",
+  "tempo_us": 731707
+}
