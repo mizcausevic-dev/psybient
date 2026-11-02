@@ -2,4 +2,4 @@ DRAFT
 This label is not the post body.
 
 POST BODY
-Psybient: Low Water 82, Glass Orbit 96, Dust Choir 76, Night Ferry 104. Preview is Low Water bars 9-16 at 82 BPM, 23.458 seconds, not the 32-bar MIDI. preview, not a master. The film shows preview, not master. No human listening audition was performed for this build.
+Psybient: Low Water 82, Glass Orbit 96, Dust Choir 76, Night Ferry 104. Preview is Low Water bars 9-16 at 82 BPM, 23.415 seconds, not the 32-bar MIDI. preview, not a master. The film shows preview, not master. No human listening audition was performed for this build.

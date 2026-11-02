@@ -40,7 +40,7 @@ from tools.validate import dump_json, validate_tree, write_midi_files  # noqa: E
 
 X_BODY = (
     "Psybient: Low Water 82, Glass Orbit 96, Dust Choir 76, Night Ferry 104. "
-    "Preview is Low Water bars 9-16 at 82 BPM, 23.458 seconds, not the 32-bar MIDI. "
+    "Preview is Low Water bars 9-16 at 82 BPM, 23.415 seconds, not the 32-bar MIDI. "
     "preview, not a master. The film shows preview, not master. "
     "No human listening audition was performed for this build."
 )
@@ -243,7 +243,7 @@ This file is a draft. It has not been posted.
 
 Caption
 
-Psybient. Four kits: Low Water 82, Glass Orbit 96, Dust Choir 76, Night Ferry 104. Drums, percussion, bass, motif, harmonic field, and atmosphere, two variations each, one 32-bar arrangement. Atmosphere is notes plus a documented sine mapping, not a hidden effect. The audio preview is bars 9-16 of Low Water at 82 BPM, 23.458 seconds, not the 32-bar arrangement. preview, not a master. The film shows preview, not master. No human listening audition was performed for this build.
+Psybient. Four kits: Low Water 82, Glass Orbit 96, Dust Choir 76, Night Ferry 104. Drums, percussion, bass, motif, harmonic field, and atmosphere, two variations each, one 32-bar arrangement. Atmosphere is notes plus a documented sine mapping, not a hidden effect. The audio preview is bars 9-16 of Low Water at 82 BPM, 23.415 seconds, not the 32-bar arrangement. preview, not a master. The film shows preview, not master. No human listening audition was performed for this build.
 
 Hashtags
 

@@ -17,7 +17,7 @@ PARAGRAPHS = [
     "Drums and percussion share channel 10 and use an explicit note map: kick 36, snare 38, closed hat 42, open hat 46, crash 49, tambourine 54, congas 63 and 64, maracas 70, claves 75, woodblock 76. Closed and open hats do not overlap. Bass is monophonic, MIDI 28 to 55. Motif is monophonic, MIDI 60 to 84. The harmonic field allows five notes, MIDI 48 to 76. Atmosphere allows three notes, MIDI 52 to 88. C4 is 60. The resolution is 960 ticks per quarter note. Offsets are 0. Dust Choir motif B uses one E4 outside F mixolydian, and Night Ferry bass B uses one C2 outside the E minor collection. Both are flagged.",
     PROGRAM,
     "The atmosphere is ordinary notes. The preview synth plays them with a quiet sine and a slow attack. That envelope is not in the MIDI. Drums and percussion are short sines or noise bursts chosen by the MIDI pitch. Bass is a sine. The motif is a triangle. The harmonic field is a quiet sine. Nothing in the file is a sample or a program change.",
-    "The primary preview is bars 9-16 of Low Water at 82 BPM, variation A, all six roles. The encoded MP3 is 23.458 seconds. The 32-bar arrangement remains in the MIDI and is not the MP3. "
+    "The primary preview is bars 9-16 of Low Water at 82 BPM, variation A, all six roles. The encoded MP3 is 23.415 seconds. The 32-bar arrangement remains in the MIDI and is not the MP3. "
     + PREVIEW_LINE
     + ". The film takes its audio from that preview and shows the words "
     + ON_PICTURE

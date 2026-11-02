@@ -16,7 +16,7 @@ No program changes are encoded. A conventional GM player will normally use its d
 
 The atmosphere is ordinary notes. The preview synth plays them with a quiet sine and a slow attack. That envelope is not in the MIDI. Drums and percussion are short sines or noise bursts chosen by the MIDI pitch. Bass is a sine. The motif is a triangle. The harmonic field is a quiet sine. Nothing in the file is a sample or a program change.
 
-The primary preview is bars 9-16 of Low Water at 82 BPM, variation A, all six roles. The encoded MP3 is 23.458 seconds. The 32-bar arrangement remains in the MIDI and is not the MP3. preview, not a master. The film takes its audio from that preview and shows the words preview, not master on the picture and in the WebVTT captions.
+The primary preview is bars 9-16 of Low Water at 82 BPM, variation A, all six roles. The encoded MP3 is 23.415 seconds. The 32-bar arrangement remains in the MIDI and is not the MP3. preview, not a master. The film takes its audio from that preview and shows the words preview, not master on the picture and in the WebVTT captions.
 
 No human listening audition was performed for this build. The validator reopened the MIDI bytes and compared them with the canonical score. That is a structural check. The sample peak written beside the preview is the peak of the integer mix. It is not a loudness measurement. Nothing in this build is claimed as a master.
 
