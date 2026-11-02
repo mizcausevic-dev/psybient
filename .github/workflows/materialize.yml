@@ -7,7 +7,7 @@ on:
 
 jobs:
   build:
-    if: ${{ !contains(github.event.head_commit.message, '[skip ci]') }}
+    if: ${{ !contains(github.event.head_commit.message, '[skip ci]') && !contains(github.event.head_commit.message, 'duration-text-once') }}
     runs-on: ubuntu-latest
     permissions:
       contents: write
