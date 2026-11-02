@@ -12,7 +12,6 @@ jobs:
     permissions:
       contents: write
       pages: write
-      administration: write
     steps:
       - uses: actions/checkout@v4
       - name: Unpack generator
@@ -40,23 +39,27 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: |
           set -euo pipefail
+          git config user.name "mizcausevic-dev"
+          git config user.email "mizcausevic-dev@users.noreply.github.com"
           body='{"build_type":"legacy","source":{"branch":"gh-pages","path":"/"}}'
           code=$(curl -sS -o /tmp/pages.json -w "%{http_code}" -X POST \
             -H "Authorization: Bearer ${GH_TOKEN}" \
             -H "Accept: application/vnd.github+json" \
             "https://api.github.com/repos/${GITHUB_REPOSITORY}/pages" \
-            -d "${body}")
-          echo "pages_create_${code}"
-          cat /tmp/pages.json
+            -d "${body}" || true)
+          note=$(head -c 280 /tmp/pages.json | tr '\n' ' ')
+          echo "pages_create_${code} ${note}"
           if [ "${code}" != "201" ] && [ "${code}" != "409" ]; then
             code=$(curl -sS -o /tmp/pages.json -w "%{http_code}" -X PUT \
               -H "Authorization: Bearer ${GH_TOKEN}" \
               -H "Accept: application/vnd.github+json" \
               "https://api.github.com/repos/${GITHUB_REPOSITORY}/pages" \
-              -d "${body}")
-            echo "pages_update_${code}"
-            cat /tmp/pages.json
+              -d "${body}" || true)
+            note=$(head -c 280 /tmp/pages.json | tr '\n' ' ')
+            echo "pages_update_${code} ${note}"
           fi
+          git commit --allow-empty -m "Pages API ${code} ${note} [skip ci]"
+          git push origin HEAD:main
           if [ "${code}" != "201" ] && [ "${code}" != "409" ] && [ "${code}" != "204" ] && [ "${code}" != "200" ]; then
             exit 1
           fi
