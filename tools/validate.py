@@ -29,7 +29,7 @@ ROLE_LIMITS = {
     "percussion": {"lo": 54, "hi": 76, "poly": 4},
     "bass": {"lo": 28, "hi": 55, "poly": 1},
     "motif": {"lo": 60, "hi": 84, "poly": 1},
-    "harmonic-field": {"lo": 48, "hi": 76, "poly": 4},
+    "harmonic-field": {"lo": 48, "hi": 76, "poly": 5},
     "atmosphere": {"lo": 52, "hi": 88, "poly": 3},
 }
 PERCUSSION_ROLES = {"drums", "percussion"}

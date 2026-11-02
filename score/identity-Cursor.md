@@ -8,9 +8,9 @@ Core versus reference: There is no reference-only part. All six roles are core. 
 
 ## k01 Low Water
 
-Half-time pocket: kick on beat 1, snare on beat 3, hats only on the and of 2 and the last 16th. The bass leaps D to A, then settles. The motif rises D F A B and leaves bar 3 empty. Harmony holds Dm11, then G9, then a C major color, then a thinner Dm. Atmosphere is a few long high notes with silence in the last bar.
+Half-time pocket: kick on beat 1, snare on beat 3, hats only on the and of 2 and the last 16th. The bass leaps D to A, then settles. The motif rises D F A B and leaves bar 3 empty. Harmony holds Dm11 as D F C E G, then G9 as G B F A, then Cmaj7, then a thinner Dm. Atmosphere is a few long high notes with silence in the last bar.
 
-Harmonic rhythm: Dm11 for two bars, G9 for two, Cmaj7 for two, then a delayed Dm for two.
+Harmonic rhythm: Dm11 (D F C E G) for two bars, G9 (G B F A) for two, Cmaj7 for two, then a delayed Dm for two.
 
 Arrangement placements, in bars from 0: drums [8, 16, 24], percussion [8, 24], bass [8, 16, 24], motif [8, 24], harmonic-field [8, 16], atmosphere [0, 8, 24].
 

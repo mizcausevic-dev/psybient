@@ -56,9 +56,9 @@
             "channel": 9,
             "departure": false,
             "duration": 120,
-            "nominal_start": 34080,
+            "nominal_start": 34320,
             "offset": 0,
-            "performed_start": 34080,
+            "performed_start": 34320,
             "pitch": 42,
             "velocity": 48
           },
@@ -96,9 +96,9 @@
             "channel": 9,
             "departure": false,
             "duration": 120,
-            "nominal_start": 37920,
+            "nominal_start": 38160,
             "offset": 0,
-            "performed_start": 37920,
+            "performed_start": 38160,
             "pitch": 42,
             "velocity": 48
           },
@@ -136,9 +136,9 @@
             "channel": 9,
             "departure": false,
             "duration": 120,
-            "nominal_start": 41760,
+            "nominal_start": 42000,
             "offset": 0,
-            "performed_start": 41760,
+            "performed_start": 42000,
             "pitch": 42,
             "velocity": 48
           },
@@ -176,9 +176,9 @@
             "channel": 9,
             "departure": false,
             "duration": 120,
-            "nominal_start": 45600,
+            "nominal_start": 45840,
             "offset": 0,
-            "performed_start": 45600,
+            "performed_start": 45840,
             "pitch": 42,
             "velocity": 48
           },
@@ -216,9 +216,9 @@
             "channel": 9,
             "departure": false,
             "duration": 120,
-            "nominal_start": 49440,
+            "nominal_start": 49680,
             "offset": 0,
-            "performed_start": 49440,
+            "performed_start": 49680,
             "pitch": 42,
             "velocity": 48
           },
@@ -256,9 +256,9 @@
             "channel": 9,
             "departure": false,
             "duration": 120,
-            "nominal_start": 53280,
+            "nominal_start": 53520,
             "offset": 0,
-            "performed_start": 53280,
+            "performed_start": 53520,
             "pitch": 42,
             "velocity": 48
           },
@@ -296,9 +296,9 @@
             "channel": 9,
             "departure": false,
             "duration": 120,
-            "nominal_start": 57120,
+            "nominal_start": 57360,
             "offset": 0,
-            "performed_start": 57120,
+            "performed_start": 57360,
             "pitch": 42,
             "velocity": 48
           },
@@ -345,10 +345,10 @@
           {
             "channel": 9,
             "departure": false,
-            "duration": 400,
-            "nominal_start": 60960,
+            "duration": 220,
+            "nominal_start": 61200,
             "offset": 0,
-            "performed_start": 60960,
+            "performed_start": 61200,
             "pitch": 46,
             "velocity": 70
           },
@@ -386,9 +386,9 @@
             "channel": 9,
             "departure": false,
             "duration": 120,
-            "nominal_start": 64800,
+            "nominal_start": 65040,
             "offset": 0,
-            "performed_start": 64800,
+            "performed_start": 65040,
             "pitch": 42,
             "velocity": 48
           },
@@ -426,9 +426,9 @@
             "channel": 9,
             "departure": false,
             "duration": 120,
-            "nominal_start": 68640,
+            "nominal_start": 68880,
             "offset": 0,
-            "performed_start": 68640,
+            "performed_start": 68880,
             "pitch": 42,
             "velocity": 48
           },
@@ -466,9 +466,9 @@
             "channel": 9,
             "departure": false,
             "duration": 120,
-            "nominal_start": 72480,
+            "nominal_start": 72720,
             "offset": 0,
-            "performed_start": 72480,
+            "performed_start": 72720,
             "pitch": 42,
             "velocity": 48
           },
@@ -506,9 +506,9 @@
             "channel": 9,
             "departure": false,
             "duration": 120,
-            "nominal_start": 76320,
+            "nominal_start": 76560,
             "offset": 0,
-            "performed_start": 76320,
+            "performed_start": 76560,
             "pitch": 42,
             "velocity": 48
           },
@@ -546,9 +546,9 @@
             "channel": 9,
             "departure": false,
             "duration": 120,
-            "nominal_start": 80160,
+            "nominal_start": 80400,
             "offset": 0,
-            "performed_start": 80160,
+            "performed_start": 80400,
             "pitch": 42,
             "velocity": 48
           },
@@ -586,9 +586,9 @@
             "channel": 9,
             "departure": false,
             "duration": 120,
-            "nominal_start": 84000,
+            "nominal_start": 84240,
             "offset": 0,
-            "performed_start": 84000,
+            "performed_start": 84240,
             "pitch": 42,
             "velocity": 48
           },
@@ -626,9 +626,9 @@
             "channel": 9,
             "departure": false,
             "duration": 120,
-            "nominal_start": 87840,
+            "nominal_start": 88080,
             "offset": 0,
-            "performed_start": 87840,
+            "performed_start": 88080,
             "pitch": 42,
             "velocity": 48
           },
@@ -675,10 +675,10 @@
           {
             "channel": 9,
             "departure": false,
-            "duration": 400,
-            "nominal_start": 91680,
+            "duration": 220,
+            "nominal_start": 91920,
             "offset": 0,
-            "performed_start": 91680,
+            "performed_start": 91920,
             "pitch": 46,
             "velocity": 70
           },
@@ -716,9 +716,9 @@
             "channel": 9,
             "departure": false,
             "duration": 120,
-            "nominal_start": 95520,
+            "nominal_start": 95760,
             "offset": 0,
-            "performed_start": 95520,
+            "performed_start": 95760,
             "pitch": 42,
             "velocity": 48
           },
@@ -756,9 +756,9 @@
             "channel": 9,
             "departure": false,
             "duration": 120,
-            "nominal_start": 99360,
+            "nominal_start": 99600,
             "offset": 0,
-            "performed_start": 99360,
+            "performed_start": 99600,
             "pitch": 42,
             "velocity": 48
           },
@@ -796,9 +796,9 @@
             "channel": 9,
             "departure": false,
             "duration": 120,
-            "nominal_start": 103200,
+            "nominal_start": 103440,
             "offset": 0,
-            "performed_start": 103200,
+            "performed_start": 103440,
             "pitch": 42,
             "velocity": 48
           },
@@ -836,9 +836,9 @@
             "channel": 9,
             "departure": false,
             "duration": 120,
-            "nominal_start": 107040,
+            "nominal_start": 107280,
             "offset": 0,
-            "performed_start": 107040,
+            "performed_start": 107280,
             "pitch": 42,
             "velocity": 48
           },
@@ -876,9 +876,9 @@
             "channel": 9,
             "departure": false,
             "duration": 120,
-            "nominal_start": 110880,
+            "nominal_start": 111120,
             "offset": 0,
-            "performed_start": 110880,
+            "performed_start": 111120,
             "pitch": 42,
             "velocity": 48
           },
@@ -916,9 +916,9 @@
             "channel": 9,
             "departure": false,
             "duration": 120,
-            "nominal_start": 114720,
+            "nominal_start": 114960,
             "offset": 0,
-            "performed_start": 114720,
+            "performed_start": 114960,
             "pitch": 42,
             "velocity": 48
           },
@@ -956,9 +956,9 @@
             "channel": 9,
             "departure": false,
             "duration": 120,
-            "nominal_start": 118560,
+            "nominal_start": 118800,
             "offset": 0,
-            "performed_start": 118560,
+            "performed_start": 118800,
             "pitch": 42,
             "velocity": 48
           },
@@ -1005,10 +1005,10 @@
           {
             "channel": 9,
             "departure": false,
-            "duration": 400,
-            "nominal_start": 122400,
+            "duration": 220,
+            "nominal_start": 122640,
             "offset": 0,
-            "performed_start": 122400,
+            "performed_start": 122640,
             "pitch": 46,
             "velocity": 70
           }
@@ -2545,16 +2545,6 @@
             "nominal_start": 30720,
             "offset": 0,
             "performed_start": 30720,
-            "pitch": 57,
-            "velocity": 66
-          },
-          {
-            "channel": 2,
-            "departure": false,
-            "duration": 7680,
-            "nominal_start": 30720,
-            "offset": 0,
-            "performed_start": 30720,
             "pitch": 60,
             "velocity": 64
           },
@@ -2565,8 +2555,28 @@
             "nominal_start": 30720,
             "offset": 0,
             "performed_start": 30720,
+            "pitch": 64,
+            "velocity": 66
+          },
+          {
+            "channel": 2,
+            "departure": false,
+            "duration": 7680,
+            "nominal_start": 30720,
+            "offset": 0,
+            "performed_start": 30720,
             "pitch": 65,
             "velocity": 68
+          },
+          {
+            "channel": 2,
+            "departure": false,
+            "duration": 7680,
+            "nominal_start": 30720,
+            "offset": 0,
+            "performed_start": 30720,
+            "pitch": 67,
+            "velocity": 62
           },
           {
             "channel": 2,
@@ -2595,8 +2605,8 @@
             "nominal_start": 38400,
             "offset": 0,
             "performed_start": 38400,
-            "pitch": 62,
-            "velocity": 64
+            "pitch": 65,
+            "velocity": 70
           },
           {
             "channel": 2,
@@ -2606,7 +2616,7 @@
             "offset": 0,
             "performed_start": 38400,
             "pitch": 69,
-            "velocity": 70
+            "velocity": 68
           },
           {
             "channel": 2,
@@ -2695,16 +2705,6 @@
             "nominal_start": 61440,
             "offset": 0,
             "performed_start": 61440,
-            "pitch": 57,
-            "velocity": 66
-          },
-          {
-            "channel": 2,
-            "departure": false,
-            "duration": 7680,
-            "nominal_start": 61440,
-            "offset": 0,
-            "performed_start": 61440,
             "pitch": 60,
             "velocity": 64
           },
@@ -2715,8 +2715,28 @@
             "nominal_start": 61440,
             "offset": 0,
             "performed_start": 61440,
+            "pitch": 64,
+            "velocity": 66
+          },
+          {
+            "channel": 2,
+            "departure": false,
+            "duration": 7680,
+            "nominal_start": 61440,
+            "offset": 0,
+            "performed_start": 61440,
             "pitch": 65,
             "velocity": 68
+          },
+          {
+            "channel": 2,
+            "departure": false,
+            "duration": 7680,
+            "nominal_start": 61440,
+            "offset": 0,
+            "performed_start": 61440,
+            "pitch": 67,
+            "velocity": 62
           },
           {
             "channel": 2,
@@ -2745,8 +2765,8 @@
             "nominal_start": 69120,
             "offset": 0,
             "performed_start": 69120,
-            "pitch": 62,
-            "velocity": 64
+            "pitch": 65,
+            "velocity": 70
           },
           {
             "channel": 2,
@@ -2756,7 +2776,7 @@
             "offset": 0,
             "performed_start": 69120,
             "pitch": 69,
-            "velocity": 70
+            "velocity": 68
           },
           {
             "channel": 2,
@@ -3087,9 +3107,9 @@
               "channel": 9,
               "departure": false,
               "duration": 120,
-              "nominal_start": 34080,
+              "nominal_start": 34320,
               "offset": 0,
-              "performed_start": 34080,
+              "performed_start": 34320,
               "pitch": 42,
               "velocity": 48
             },
@@ -3127,9 +3147,9 @@
               "channel": 9,
               "departure": false,
               "duration": 120,
-              "nominal_start": 37920,
+              "nominal_start": 38160,
               "offset": 0,
-              "performed_start": 37920,
+              "performed_start": 38160,
               "pitch": 42,
               "velocity": 48
             },
@@ -3167,9 +3187,9 @@
               "channel": 9,
               "departure": false,
               "duration": 120,
-              "nominal_start": 41760,
+              "nominal_start": 42000,
               "offset": 0,
-              "performed_start": 41760,
+              "performed_start": 42000,
               "pitch": 42,
               "velocity": 48
             },
@@ -3207,9 +3227,9 @@
               "channel": 9,
               "departure": false,
               "duration": 120,
-              "nominal_start": 45600,
+              "nominal_start": 45840,
               "offset": 0,
-              "performed_start": 45600,
+              "performed_start": 45840,
               "pitch": 42,
               "velocity": 48
             },
@@ -3247,9 +3267,9 @@
               "channel": 9,
               "departure": false,
               "duration": 120,
-              "nominal_start": 49440,
+              "nominal_start": 49680,
               "offset": 0,
-              "performed_start": 49440,
+              "performed_start": 49680,
               "pitch": 42,
               "velocity": 48
             },
@@ -3287,9 +3307,9 @@
               "channel": 9,
               "departure": false,
               "duration": 120,
-              "nominal_start": 53280,
+              "nominal_start": 53520,
               "offset": 0,
-              "performed_start": 53280,
+              "performed_start": 53520,
               "pitch": 42,
               "velocity": 48
             },
@@ -3327,9 +3347,9 @@
               "channel": 9,
               "departure": false,
               "duration": 120,
-              "nominal_start": 57120,
+              "nominal_start": 57360,
               "offset": 0,
-              "performed_start": 57120,
+              "performed_start": 57360,
               "pitch": 42,
               "velocity": 48
             },
@@ -3376,10 +3396,10 @@
             {
               "channel": 9,
               "departure": false,
-              "duration": 400,
-              "nominal_start": 60960,
+              "duration": 220,
+              "nominal_start": 61200,
               "offset": 0,
-              "performed_start": 60960,
+              "performed_start": 61200,
               "pitch": 46,
               "velocity": 70
             },
@@ -3417,9 +3437,9 @@
               "channel": 9,
               "departure": false,
               "duration": 120,
-              "nominal_start": 64800,
+              "nominal_start": 65040,
               "offset": 0,
-              "performed_start": 64800,
+              "performed_start": 65040,
               "pitch": 42,
               "velocity": 48
             },
@@ -3457,9 +3477,9 @@
               "channel": 9,
               "departure": false,
               "duration": 120,
-              "nominal_start": 68640,
+              "nominal_start": 68880,
               "offset": 0,
-              "performed_start": 68640,
+              "performed_start": 68880,
               "pitch": 42,
               "velocity": 48
             },
@@ -3497,9 +3517,9 @@
               "channel": 9,
               "departure": false,
               "duration": 120,
-              "nominal_start": 72480,
+              "nominal_start": 72720,
               "offset": 0,
-              "performed_start": 72480,
+              "performed_start": 72720,
               "pitch": 42,
               "velocity": 48
             },
@@ -3537,9 +3557,9 @@
               "channel": 9,
               "departure": false,
               "duration": 120,
-              "nominal_start": 76320,
+              "nominal_start": 76560,
               "offset": 0,
-              "performed_start": 76320,
+              "performed_start": 76560,
               "pitch": 42,
               "velocity": 48
             },
@@ -3577,9 +3597,9 @@
               "channel": 9,
               "departure": false,
               "duration": 120,
-              "nominal_start": 80160,
+              "nominal_start": 80400,
               "offset": 0,
-              "performed_start": 80160,
+              "performed_start": 80400,
               "pitch": 42,
               "velocity": 48
             },
@@ -3617,9 +3637,9 @@
               "channel": 9,
               "departure": false,
               "duration": 120,
-              "nominal_start": 84000,
+              "nominal_start": 84240,
               "offset": 0,
-              "performed_start": 84000,
+              "performed_start": 84240,
               "pitch": 42,
               "velocity": 48
             },
@@ -3657,9 +3677,9 @@
               "channel": 9,
               "departure": false,
               "duration": 120,
-              "nominal_start": 87840,
+              "nominal_start": 88080,
               "offset": 0,
-              "performed_start": 87840,
+              "performed_start": 88080,
               "pitch": 42,
               "velocity": 48
             },
@@ -3706,10 +3726,10 @@
             {
               "channel": 9,
               "departure": false,
-              "duration": 400,
-              "nominal_start": 91680,
+              "duration": 220,
+              "nominal_start": 91920,
               "offset": 0,
-              "performed_start": 91680,
+              "performed_start": 91920,
               "pitch": 46,
               "velocity": 70
             },
@@ -3747,9 +3767,9 @@
               "channel": 9,
               "departure": false,
               "duration": 120,
-              "nominal_start": 95520,
+              "nominal_start": 95760,
               "offset": 0,
-              "performed_start": 95520,
+              "performed_start": 95760,
               "pitch": 42,
               "velocity": 48
             },
@@ -3787,9 +3807,9 @@
               "channel": 9,
               "departure": false,
               "duration": 120,
-              "nominal_start": 99360,
+              "nominal_start": 99600,
               "offset": 0,
-              "performed_start": 99360,
+              "performed_start": 99600,
               "pitch": 42,
               "velocity": 48
             },
@@ -3827,9 +3847,9 @@
               "channel": 9,
               "departure": false,
               "duration": 120,
-              "nominal_start": 103200,
+              "nominal_start": 103440,
               "offset": 0,
-              "performed_start": 103200,
+              "performed_start": 103440,
               "pitch": 42,
               "velocity": 48
             },
@@ -3867,9 +3887,9 @@
               "channel": 9,
               "departure": false,
               "duration": 120,
-              "nominal_start": 107040,
+              "nominal_start": 107280,
               "offset": 0,
-              "performed_start": 107040,
+              "performed_start": 107280,
               "pitch": 42,
               "velocity": 48
             },
@@ -3907,9 +3927,9 @@
               "channel": 9,
               "departure": false,
               "duration": 120,
-              "nominal_start": 110880,
+              "nominal_start": 111120,
               "offset": 0,
-              "performed_start": 110880,
+              "performed_start": 111120,
               "pitch": 42,
               "velocity": 48
             },
@@ -3947,9 +3967,9 @@
               "channel": 9,
               "departure": false,
               "duration": 120,
-              "nominal_start": 114720,
+              "nominal_start": 114960,
               "offset": 0,
-              "performed_start": 114720,
+              "performed_start": 114960,
               "pitch": 42,
               "velocity": 48
             },
@@ -3987,9 +4007,9 @@
               "channel": 9,
               "departure": false,
               "duration": 120,
-              "nominal_start": 118560,
+              "nominal_start": 118800,
               "offset": 0,
-              "performed_start": 118560,
+              "performed_start": 118800,
               "pitch": 42,
               "velocity": 48
             },
@@ -4036,10 +4056,10 @@
             {
               "channel": 9,
               "departure": false,
-              "duration": 400,
-              "nominal_start": 122400,
+              "duration": 220,
+              "nominal_start": 122640,
               "offset": 0,
-              "performed_start": 122400,
+              "performed_start": 122640,
               "pitch": 46,
               "velocity": 70
             }
@@ -5576,16 +5596,6 @@
               "nominal_start": 30720,
               "offset": 0,
               "performed_start": 30720,
-              "pitch": 57,
-              "velocity": 66
-            },
-            {
-              "channel": 2,
-              "departure": false,
-              "duration": 7680,
-              "nominal_start": 30720,
-              "offset": 0,
-              "performed_start": 30720,
               "pitch": 60,
               "velocity": 64
             },
@@ -5596,8 +5606,28 @@
               "nominal_start": 30720,
               "offset": 0,
               "performed_start": 30720,
+              "pitch": 64,
+              "velocity": 66
+            },
+            {
+              "channel": 2,
+              "departure": false,
+              "duration": 7680,
+              "nominal_start": 30720,
+              "offset": 0,
+              "performed_start": 30720,
               "pitch": 65,
               "velocity": 68
+            },
+            {
+              "channel": 2,
+              "departure": false,
+              "duration": 7680,
+              "nominal_start": 30720,
+              "offset": 0,
+              "performed_start": 30720,
+              "pitch": 67,
+              "velocity": 62
             },
             {
               "channel": 2,
@@ -5626,8 +5656,8 @@
               "nominal_start": 38400,
               "offset": 0,
               "performed_start": 38400,
-              "pitch": 62,
-              "velocity": 64
+              "pitch": 65,
+              "velocity": 70
             },
             {
               "channel": 2,
@@ -5637,7 +5667,7 @@
               "offset": 0,
               "performed_start": 38400,
               "pitch": 69,
-              "velocity": 70
+              "velocity": 68
             },
             {
               "channel": 2,
@@ -5726,16 +5756,6 @@
               "nominal_start": 61440,
               "offset": 0,
               "performed_start": 61440,
-              "pitch": 57,
-              "velocity": 66
-            },
-            {
-              "channel": 2,
-              "departure": false,
-              "duration": 7680,
-              "nominal_start": 61440,
-              "offset": 0,
-              "performed_start": 61440,
               "pitch": 60,
               "velocity": 64
             },
@@ -5746,8 +5766,28 @@
               "nominal_start": 61440,
               "offset": 0,
               "performed_start": 61440,
+              "pitch": 64,
+              "velocity": 66
+            },
+            {
+              "channel": 2,
+              "departure": false,
+              "duration": 7680,
+              "nominal_start": 61440,
+              "offset": 0,
+              "performed_start": 61440,
               "pitch": 65,
               "velocity": 68
+            },
+            {
+              "channel": 2,
+              "departure": false,
+              "duration": 7680,
+              "nominal_start": 61440,
+              "offset": 0,
+              "performed_start": 61440,
+              "pitch": 67,
+              "velocity": 62
             },
             {
               "channel": 2,
@@ -5776,8 +5816,8 @@
               "nominal_start": 69120,
               "offset": 0,
               "performed_start": 69120,
-              "pitch": 62,
-              "velocity": 64
+              "pitch": 65,
+              "velocity": 70
             },
             {
               "channel": 2,
@@ -5787,7 +5827,7 @@
               "offset": 0,
               "performed_start": 69120,
               "pitch": 69,
-              "velocity": 70
+              "velocity": 68
             },
             {
               "channel": 2,
@@ -17274,7 +17314,7 @@
       },
       {
         "a_attacks": 4,
-        "a_notes": 15,
+        "a_notes": 16,
         "b_notes": 26,
         "kit_id": "k01",
         "role": "harmonic-field"
@@ -17382,9 +17422,9 @@
           "departure": false,
           "duration": 120,
           "id": "k01.drums.a.n0004",
-          "nominal_start": 3360,
+          "nominal_start": 3600,
           "offset": 0,
-          "performed_start": 3360,
+          "performed_start": 3600,
           "pitch": 42,
           "velocity": 48
         },
@@ -17426,9 +17466,9 @@
           "departure": false,
           "duration": 120,
           "id": "k01.drums.a.n0008",
-          "nominal_start": 7200,
+          "nominal_start": 7440,
           "offset": 0,
-          "performed_start": 7200,
+          "performed_start": 7440,
           "pitch": 42,
           "velocity": 48
         },
@@ -17470,9 +17510,9 @@
           "departure": false,
           "duration": 120,
           "id": "k01.drums.a.n0012",
-          "nominal_start": 11040,
+          "nominal_start": 11280,
           "offset": 0,
-          "performed_start": 11040,
+          "performed_start": 11280,
           "pitch": 42,
           "velocity": 48
         },
@@ -17514,9 +17554,9 @@
           "departure": false,
           "duration": 120,
           "id": "k01.drums.a.n0016",
-          "nominal_start": 14880,
+          "nominal_start": 15120,
           "offset": 0,
-          "performed_start": 14880,
+          "performed_start": 15120,
           "pitch": 42,
           "velocity": 48
         },
@@ -17558,9 +17598,9 @@
           "departure": false,
           "duration": 120,
           "id": "k01.drums.a.n0020",
-          "nominal_start": 18720,
+          "nominal_start": 18960,
           "offset": 0,
-          "performed_start": 18720,
+          "performed_start": 18960,
           "pitch": 42,
           "velocity": 48
         },
@@ -17602,9 +17642,9 @@
           "departure": false,
           "duration": 120,
           "id": "k01.drums.a.n0024",
-          "nominal_start": 22560,
+          "nominal_start": 22800,
           "offset": 0,
-          "performed_start": 22560,
+          "performed_start": 22800,
           "pitch": 42,
           "velocity": 48
         },
@@ -17646,9 +17686,9 @@
           "departure": false,
           "duration": 120,
           "id": "k01.drums.a.n0028",
-          "nominal_start": 26400,
+          "nominal_start": 26640,
           "offset": 0,
-          "performed_start": 26400,
+          "performed_start": 26640,
           "pitch": 42,
           "velocity": 48
         },
@@ -17699,11 +17739,11 @@
         {
           "channel": 9,
           "departure": false,
-          "duration": 400,
+          "duration": 220,
           "id": "k01.drums.a.n0033",
-          "nominal_start": 30240,
+          "nominal_start": 30480,
           "offset": 0,
-          "performed_start": 30240,
+          "performed_start": 30480,
           "pitch": 46,
           "velocity": 70
         }
@@ -18495,7 +18535,7 @@
       "file_slug": "harmonic-a",
       "id": "k01.harmonic-field.a",
       "kit_id": "k01",
-      "max_poly": 4,
+      "max_poly": 5,
       "monophonic": false,
       "notes": [
         {
@@ -18517,8 +18557,8 @@
           "nominal_start": 0,
           "offset": 0,
           "performed_start": 0,
-          "pitch": 57,
-          "velocity": 66
+          "pitch": 60,
+          "velocity": 64
         },
         {
           "channel": 2,
@@ -18528,8 +18568,8 @@
           "nominal_start": 0,
           "offset": 0,
           "performed_start": 0,
-          "pitch": 60,
-          "velocity": 64
+          "pitch": 64,
+          "velocity": 66
         },
         {
           "channel": 2,
@@ -18547,6 +18587,17 @@
           "departure": false,
           "duration": 7680,
           "id": "k01.harmonic-field.a.n0005",
+          "nominal_start": 0,
+          "offset": 0,
+          "performed_start": 0,
+          "pitch": 67,
+          "velocity": 62
+        },
+        {
+          "channel": 2,
+          "departure": false,
+          "duration": 7680,
+          "id": "k01.harmonic-field.a.n0006",
           "nominal_start": 7680,
           "offset": 0,
           "performed_start": 7680,
@@ -18557,7 +18608,7 @@
           "channel": 2,
           "departure": false,
           "duration": 7680,
-          "id": "k01.harmonic-field.a.n0006",
+          "id": "k01.harmonic-field.a.n0007",
           "nominal_start": 7680,
           "offset": 0,
           "performed_start": 7680,
@@ -18568,33 +18619,22 @@
           "channel": 2,
           "departure": false,
           "duration": 7680,
-          "id": "k01.harmonic-field.a.n0007",
-          "nominal_start": 7680,
-          "offset": 0,
-          "performed_start": 7680,
-          "pitch": 62,
-          "velocity": 64
-        },
-        {
-          "channel": 2,
-          "departure": false,
-          "duration": 7680,
           "id": "k01.harmonic-field.a.n0008",
           "nominal_start": 7680,
           "offset": 0,
           "performed_start": 7680,
-          "pitch": 69,
+          "pitch": 65,
           "velocity": 70
         },
         {
           "channel": 2,
           "departure": false,
-          "duration": 6720,
+          "duration": 7680,
           "id": "k01.harmonic-field.a.n0009",
-          "nominal_start": 15360,
+          "nominal_start": 7680,
           "offset": 0,
-          "performed_start": 15360,
-          "pitch": 60,
+          "performed_start": 7680,
+          "pitch": 69,
           "velocity": 68
         },
         {
@@ -18605,6 +18645,17 @@
           "nominal_start": 15360,
           "offset": 0,
           "performed_start": 15360,
+          "pitch": 60,
+          "velocity": 68
+        },
+        {
+          "channel": 2,
+          "departure": false,
+          "duration": 6720,
+          "id": "k01.harmonic-field.a.n0011",
+          "nominal_start": 15360,
+          "offset": 0,
+          "performed_start": 15360,
           "pitch": 64,
           "velocity": 64
         },
@@ -18612,7 +18663,7 @@
           "channel": 2,
           "departure": false,
           "duration": 6720,
-          "id": "k01.harmonic-field.a.n0011",
+          "id": "k01.harmonic-field.a.n0012",
           "nominal_start": 15360,
           "offset": 0,
           "performed_start": 15360,
@@ -18623,7 +18674,7 @@
           "channel": 2,
           "departure": false,
           "duration": 6720,
-          "id": "k01.harmonic-field.a.n0012",
+          "id": "k01.harmonic-field.a.n0013",
           "nominal_start": 15360,
           "offset": 0,
           "performed_start": 15360,
@@ -18634,7 +18685,7 @@
           "channel": 2,
           "departure": false,
           "duration": 6240,
-          "id": "k01.harmonic-field.a.n0013",
+          "id": "k01.harmonic-field.a.n0014",
           "nominal_start": 23520,
           "offset": 0,
           "performed_start": 23520,
@@ -18645,7 +18696,7 @@
           "channel": 2,
           "departure": false,
           "duration": 6240,
-          "id": "k01.harmonic-field.a.n0014",
+          "id": "k01.harmonic-field.a.n0015",
           "nominal_start": 23520,
           "offset": 0,
           "performed_start": 23520,
@@ -18656,7 +18707,7 @@
           "channel": 2,
           "departure": false,
           "duration": 6240,
-          "id": "k01.harmonic-field.a.n0015",
+          "id": "k01.harmonic-field.a.n0016",
           "nominal_start": 23520,
           "offset": 0,
           "performed_start": 23520,
@@ -20039,7 +20090,7 @@
       "file_slug": "harmonic-b",
       "id": "k01.harmonic-field.b",
       "kit_id": "k01",
-      "max_poly": 4,
+      "max_poly": 5,
       "monophonic": false,
       "notes": [
         {
@@ -21990,7 +22041,7 @@
       "file_slug": "harmonic-a",
       "id": "k02.harmonic-field.a",
       "kit_id": "k02",
-      "max_poly": 4,
+      "max_poly": 5,
       "monophonic": false,
       "notes": [
         {
@@ -23875,7 +23926,7 @@
       "file_slug": "harmonic-b",
       "id": "k02.harmonic-field.b",
       "kit_id": "k02",
-      "max_poly": 4,
+      "max_poly": 5,
       "monophonic": false,
       "notes": [
         {
@@ -25155,7 +25206,7 @@
       "file_slug": "harmonic-a",
       "id": "k03.harmonic-field.a",
       "kit_id": "k03",
-      "max_poly": 4,
+      "max_poly": 5,
       "monophonic": false,
       "notes": [
         {
@@ -26006,7 +26057,7 @@
       "file_slug": "harmonic-b",
       "id": "k03.harmonic-field.b",
       "kit_id": "k03",
-      "max_poly": 4,
+      "max_poly": 5,
       "monophonic": false,
       "notes": [
         {
@@ -28243,7 +28294,7 @@
       "file_slug": "harmonic-a",
       "id": "k04.harmonic-field.a",
       "kit_id": "k04",
-      "max_poly": 4,
+      "max_poly": 5,
       "monophonic": false,
       "notes": [
         {
@@ -29798,7 +29849,7 @@
       "file_slug": "harmonic-b",
       "id": "k04.harmonic-field.b",
       "kit_id": "k04",
-      "max_poly": 4,
+      "max_poly": 5,
       "monophonic": false,
       "notes": [
         {

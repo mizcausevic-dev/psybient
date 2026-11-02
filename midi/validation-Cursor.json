@@ -1,23 +1,23 @@
 {
   "arrangement": {
     "agreement": "PASS",
-    "bytes": 3051,
+    "bytes": 3046,
     "format": 1,
     "kit_id": "k01",
     "path": "midi/arrangement.mid",
     "ppq": 960,
-    "sha256": "2316f6dd56d3726ea1e0e6bcec45f89eab0cb6908e2bc095d532f88f123feb59",
+    "sha256": "04c6fccebc76c669e08eb7f9a4055c94f5992083327558b30385523c9bb7e2f8",
     "tracks": 7
   },
   "arrangements": [
     {
       "agreement": "PASS",
-      "bytes": 3051,
+      "bytes": 3046,
       "format": 1,
       "kit_id": "k01",
       "path": "midi/arrangement.mid",
       "ppq": 960,
-      "sha256": "2316f6dd56d3726ea1e0e6bcec45f89eab0cb6908e2bc095d532f88f123feb59",
+      "sha256": "04c6fccebc76c669e08eb7f9a4055c94f5992083327558b30385523c9bb7e2f8",
       "tracks": 7
     },
     {
@@ -52,11 +52,11 @@
     }
   ],
   "catalog_path": "catalog/catalog-Cursor.json",
-  "catalog_sha256": "a184a6eaefa0a81b2033d1a7a295b34ea038ab2c0e7707d1936f70b39d49ee1b",
+  "catalog_sha256": "a20a0766c8a1def94c7e4a17ba6bc211c531642c193e1d2dbf40f6b73ca693d3",
   "errors": [],
   "files": [
     {
-      "bytes": 364,
+      "bytes": 357,
       "channels": [
         9
       ],
@@ -81,7 +81,7 @@
       "requested_bpm": 82,
       "role": "drums",
       "score_agreement": "PASS",
-      "sha256": "16002bb3e9ad94b82d001ff3f83aaf014f97f9dc81d36fa63eb70a3bbbef3b77",
+      "sha256": "9e586875a45967e339f524456008fa306442849ca36fd69f08b89ed7cd1bbadc",
       "tempo_us": 731707,
       "tracks": 1
     },
@@ -176,14 +176,14 @@
       "tracks": 1
     },
     {
-      "bytes": 185,
+      "bytes": 193,
       "channels": [
         2
       ],
       "checks": {
         "eot": 30720,
         "meter": "4/4",
-        "notes": 15,
+        "notes": 16,
         "overlap": "PASS",
         "parse": "PASS",
         "ppq": 960,
@@ -193,15 +193,15 @@
       "departures": 0,
       "effective_bpm": 82.00003553334874,
       "format": 0,
-      "max_polyphony": 4,
+      "max_polyphony": 5,
       "meter": "4/4",
-      "notes": 15,
+      "notes": 16,
       "path": "midi/k01-low-water/harmonic-a.mid",
       "ppq": 960,
       "requested_bpm": 82,
       "role": "harmonic-field",
       "score_agreement": "PASS",
-      "sha256": "d0a425f710ff2a54bbf7da745a66d61935c663dda0beafc2fd096212a355afb6",
+      "sha256": "dc6b7b45c06f89328b9aaa3d6b65c70667452f28a9b4752bb2521b68162f65c1",
       "tempo_us": 731707,
       "tracks": 1
     },
@@ -1558,6 +1558,6 @@
     "variation B is a different phrase from variation A"
   ],
   "score_path": "score/canonical-score-Cursor.json",
-  "score_sha256": "dacb5ad7c312e2b35df251a081acffd3fd37fd20d771ab82184e3b630917c526",
+  "score_sha256": "c9ae0bfd740118b970578204e825ce385a126b73251987eb86cfab9a971d8a8a",
   "validator_version": "psybient-1.0.0"
 }

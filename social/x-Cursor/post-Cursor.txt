@@ -2,4 +2,4 @@ DRAFT
 This label is not the post body.
 
 POST BODY
-Psybient: four construction kits, two variations on each core part, note-only MIDI at 76, 82, 96, and 104 BPM. Arrangements are 32 bars. The preview is 8 bars of Low Water, simple-synth, not a master. No listening audition was performed.
+Psybient: Low Water 82, Glass Orbit 96, Dust Choir 76, Night Ferry 104. Preview is Low Water bars 9-16 at 82 BPM, 23.458 seconds, not the 32-bar MIDI. preview, not a master. The film shows preview, not master. No human listening audition was performed for this build.

@@ -1,7 +1,7 @@
 preview, not a master
 {
   "arrangement_path": "midi/arrangement.mid",
-  "arrangement_sha256": "2316f6dd56d3726ea1e0e6bcec45f89eab0cb6908e2bc095d532f88f123feb59",
+  "arrangement_sha256": "04c6fccebc76c669e08eb7f9a4055c94f5992083327558b30385523c9bb7e2f8",
   "encode": "libmp3lame CBR 192 kbps, mono source",
   "excerpt": {
     "bar_count": 8,
@@ -17,7 +17,7 @@ preview, not a master
   },
   "intermediate_wav": "build/preview.wav",
   "intermediate_wav_note": "The WAV is gitignored build storage. The delivered preview is the MP3.",
-  "intermediate_wav_sha256": "1f91a66ed62f2039658b014f5b4bef4fa6a10eb93ee42c0b35757c71ff71a9bd",
+  "intermediate_wav_sha256": "a7aff3c058859955d8dc0073a3c8d39bfb95f7c008e745790d3c571a33a2a123",
   "label": "preview, not a master",
   "listening": "No human listening audition was performed for this build.",
   "mapping": {
@@ -40,7 +40,7 @@ preview, not a master
     "/home/runner/work/psybient/psybient/preview/preview.mp3"
   ],
   "mp3_path": "preview/preview.mp3",
-  "mp3_sha256": "6f5c7fbc379a69d8c2bb1ce16fd5a067099a6d2d61e421c1c6caab94536e5c5e",
+  "mp3_sha256": "58776a987b45834f4c2b157656d690939da009f7e46400a3198ba7b17a000978",
   "pack_id": "psybient",
   "program_changes": "No program changes are encoded. A conventional GM player will normally use its default piano program for pitched channels unless configured otherwise; compatible GM channel 10 percussion is treated separately. Player behavior may vary.",
   "renderer": "simple-synth-1.0.0",
@@ -50,13 +50,13 @@ preview, not a master
   "sample_peak_dbfs": -3.923129017088795,
   "sample_peak_note": "This is a sample peak of the integer mix after scaling. It is not a loudness measurement.",
   "score_seconds": 23.414624,
-  "score_sha256": "dacb5ad7c312e2b35df251a081acffd3fd37fd20d771ab82184e3b630917c526",
+  "score_sha256": "c9ae0bfd740118b970578204e825ce385a126b73251987eb86cfab9a971d8a8a",
   "seconds_encoded": 23.414626,
   "source_parts": [
     {
       "id": "k01.drums.a",
       "path": "midi/k01-low-water/drums-a.mid",
-      "sha256": "16002bb3e9ad94b82d001ff3f83aaf014f97f9dc81d36fa63eb70a3bbbef3b77"
+      "sha256": "9e586875a45967e339f524456008fa306442849ca36fd69f08b89ed7cd1bbadc"
     },
     {
       "id": "k01.percussion.a",
@@ -76,7 +76,7 @@ preview, not a master
     {
       "id": "k01.harmonic-field.a",
       "path": "midi/k01-low-water/harmonic-a.mid",
-      "sha256": "d0a425f710ff2a54bbf7da745a66d61935c663dda0beafc2fd096212a355afb6"
+      "sha256": "dc6b7b45c06f89328b9aaa3d6b65c70667452f28a9b4752bb2521b68162f65c1"
     },
     {
       "id": "k01.atmosphere.a",

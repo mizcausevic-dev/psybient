@@ -27,7 +27,7 @@ Use either the combined arrangement or the separate parts. Do not stack the part
 
 Core files: 48. Reference files: 0. There is no reference-only part. All six roles are core. The arrangements reuse those files.
 
-Drums and percussion use channel 10 and the maps in this catalog. Bass is monophonic, MIDI 28 to 55. Motif is monophonic, MIDI 60 to 84. Harmonic field is MIDI 48 to 76, at most four notes. Atmosphere is MIDI 52 to 88, at most three notes, written as notes. C4 is 60. C4 is 60. PPQ is 960. Meter is 4/4. Offsets are 0. Seeds identify kits and are not random draws. Generator psybient-1.0.0.
+Drums and percussion use channel 10 and the maps in this catalog. Bass is monophonic, MIDI 28 to 55. Motif is monophonic, MIDI 60 to 84. Harmonic field is MIDI 48 to 76, at most five notes. Atmosphere is MIDI 52 to 88, at most three notes, written as notes. C4 is 60. C4 is 60. PPQ is 960. Meter is 4/4. Offsets are 0. Seeds identify kits and are not random draws. Generator psybient-1.0.0.
 
 Drums and percussion use channel 10. The drum map is kick 36, snare 38, closed hat 42, open hat 46, crash 49. The percussion map is tambourine 54, open conga 63, low conga 64, maracas 70, claves 75, woodblock 76. Closed and open hats do not overlap, and no choke controller is written.
 

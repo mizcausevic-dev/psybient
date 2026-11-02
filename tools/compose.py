@@ -136,7 +136,7 @@ def make(kit, role, variation):
         "percussion": (9, f"percussion-{variation}", False, 4, 54, 76),
         "bass": (0, f"bass-{variation}", True, 1, 28, 55),
         "motif": (1, f"motif-{variation}", True, 1, 60, 84),
-        "harmonic-field": (2, f"harmonic-{variation}", False, 4, 48, 76),
+        "harmonic-field": (2, f"harmonic-{variation}", False, 5, 48, 76),
         "atmosphere": (3, f"atmosphere-{variation}", False, 3, 52, 88),
     }
     channel, slug, mono, poly, lo, hi = spec[role]
@@ -189,10 +189,10 @@ def kits():
             [0, 2, 4, 5, 7, 9, 11], 8201,
             "Half-time pocket: kick on beat 1, snare on beat 3, hats only on the and of 2 and the last 16th. "
             "The bass leaps D to A, then settles. The motif rises D F A B and leaves bar 3 empty. "
-            "Harmony holds Dm11, then G9, then a C major color, then a thinner Dm. "
+            "Harmony holds Dm11 as D F C E G, then G9 as G B F A, then Cmaj7, then a thinner Dm. "
             "Atmosphere is a few long high notes with silence in the last bar.",
             common_limit,
-            "Dm11 for two bars, G9 for two, Cmaj7 for two, then a delayed Dm for two.",
+            "Dm11 (D F C E G) for two bars, G9 (G B F A) for two, Cmaj7 for two, then a delayed Dm for two.",
             [
                 {"name": "Open", "start_bar": 0, "bars": 2},
                 {"name": "Answer", "start_bar": 2, "bars": 2},
@@ -327,14 +327,14 @@ def events_k01(variation):
                 (bar, 0, 300, 36, 96),
                 (bar, 1440, 120, 42, 58),
                 (bar, 1920, 240, 38, 84),
-                (bar, 3360, 120, 42, 48),
+                (bar, 3600, 120, 42, 48),
             ]
         drums += [
             (7, 0, 300, 36, 104),
             (7, 1440, 120, 42, 64),
             (7, 1920, 240, 38, 96),
             (7, 2880, 200, 36, 88),
-            (7, 3360, 400, 46, 70),
+            (7, 3600, 220, 46, 70),
         ]
         perc = []
         for bar in range(8):
@@ -366,9 +366,9 @@ def events_k01(variation):
             (7, 0, 3000, 62, 86),
         ]
         harmonic = []
-        for pitch, vel in ((50, 70), (57, 66), (60, 64), (65, 68)):
+        for pitch, vel in ((50, 70), (65, 68), (60, 64), (64, 66), (67, 62)):
             harmonic.append((0, 0, 7680, pitch, vel))
-        for pitch, vel in ((55, 72), (59, 66), (62, 64), (69, 70)):
+        for pitch, vel in ((55, 72), (59, 66), (65, 70), (69, 68)):
             harmonic.append((2, 0, 7680, pitch, vel))
         for pitch, vel in ((60, 68), (64, 64), (67, 66), (71, 62)):
             harmonic.append((4, 0, 6720, pitch, vel))
@@ -1007,7 +1007,7 @@ def compose():
         "range_statement": (
             "Drums and percussion use channel 10 and the maps in this catalog. "
             "Bass is monophonic, MIDI 28 to 55. Motif is monophonic, MIDI 60 to 84. "
-            "Harmonic field is MIDI 48 to 76, at most four notes. "
+            "Harmonic field is MIDI 48 to 76, at most five notes. "
             "Atmosphere is MIDI 52 to 88, at most three notes, written as notes. C4 is 60."
         ),
         "kits": catalog_kits,
