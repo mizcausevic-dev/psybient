@@ -14,58 +14,48 @@ jobs:
       pages: write
     steps:
       - uses: actions/checkout@v4
-      - name: Unpack generator
-        run: |
-          set -euo pipefail
-          curl -fsSL --retry 5 --max-time 120 -o source.tar.gz "https://h.uguu.se/aqunTXbT.tar.gz"
-          echo "6b806a252ac53b14946699533e585e299868bff6c2416641735f26967f0ba7ea  source.tar.gz" | sha256sum -c -
-          tar -xzf source.tar.gz
-          find . -type d -name __pycache__ -prune -exec rm -rf {} +
-          touch .nojekyll
-      - name: Install media tools
-        run: sudo apt-get update && sudo apt-get install -y ffmpeg fonts-dejavu-core
-      - name: Build pack
-        run: python3 tools/build_pack.py
-      - name: Publish the pack
-        run: |
-          set -euo pipefail
-          git config user.name "mizcausevic-dev"
-          git config user.email "mizcausevic-dev@users.noreply.github.com"
-          git add -A
-          if git diff --cached --quiet; then
-            echo "no file changes"
-          else
-            git commit -m "Materialize Psybient [skip ci]"
-            git push origin HEAD:main
-          fi
-          git push origin HEAD:gh-pages
-      - name: Enable GitHub Pages
+        with:
+          fetch-depth: 0
+      - name: Publish gh-pages and enable Pages
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          set -euo pipefail
+          set +e
           git config user.name "mizcausevic-dev"
           git config user.email "mizcausevic-dev@users.noreply.github.com"
-          body='{"build_type":"legacy","source":{"branch":"gh-pages","path":"/"}}'
-          code=$(curl -sS -o /tmp/pages.json -w "%{http_code}" -X POST \
-            -H "Authorization: Bearer ${GH_TOKEN}" \
-            -H "Accept: application/vnd.github+json" \
-            "https://api.github.com/repos/${GITHUB_REPOSITORY}/pages" \
-            -d "${body}") || true
-          note=$(head -c 240 /tmp/pages.json | tr '\n' ' ')
-          echo "pages_create_${code} ${note}"
-          if [ "${code}" != "201" ] && [ "${code}" != "409" ]; then
-            code=$(curl -sS -o /tmp/pages.json -w "%{http_code}" -X PUT \
+          {
+            echo "HEAD $(git rev-parse HEAD)"
+            git status --short
+            git push origin HEAD:gh-pages
+            echo "push_pages:$?"
+            body='{"build_type":"legacy","source":{"branch":"gh-pages","path":"/"}}'
+            code=$(curl -sS -o /tmp/pages.json -w "%{http_code}" -X POST \
               -H "Authorization: Bearer ${GH_TOKEN}" \
               -H "Accept: application/vnd.github+json" \
               "https://api.github.com/repos/${GITHUB_REPOSITORY}/pages" \
-              -d "${body}") || true
-            note=$(head -c 240 /tmp/pages.json | tr '\n' ' ')
-            echo "pages_update_${code} ${note}"
-          fi
-          git commit --allow-empty -m "Pages API ${code} [skip ci]"
+              -d "${body}")
+            echo "pages_create:${code}"
+            cat /tmp/pages.json
+            echo
+            if [ "${code}" != "201" ] && [ "${code}" != "409" ]; then
+              code=$(curl -sS -o /tmp/pages.json -w "%{http_code}" -X PUT \
+                -H "Authorization: Bearer ${GH_TOKEN}" \
+                -H "Accept: application/vnd.github+json" \
+                "https://api.github.com/repos/${GITHUB_REPOSITORY}/pages" \
+                -d "${body}")
+              echo "pages_update:${code}"
+              cat /tmp/pages.json
+              echo
+            fi
+            curl -sS -o /tmp/topics.json -w "topics:%{http_code}\n" -X PUT \
+              -H "Authorization: Bearer ${GH_TOKEN}" \
+              -H "Accept: application/vnd.github+json" \
+              "https://api.github.com/repos/${GITHUB_REPOSITORY}/topics" \
+              -d '{"names":["midi","psybient","music-production","composition","ambient"]}'
+            cat /tmp/topics.json
+            echo
+          } > docs/pages-enable-log.txt 2>&1
+          git add docs/pages-enable-log.txt
+          git commit -m "Pages API result [skip ci]"
           git push origin HEAD:main
-          printf '%s\n' "${code}" "${note}" > /tmp/pages-summary.txt
-          if [ "${code}" != "201" ] && [ "${code}" != "409" ] && [ "${code}" != "204" ] && [ "${code}" != "200" ]; then
-            exit 1
-          fi
+          echo "push_main:$?"
